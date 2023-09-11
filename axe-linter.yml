@@ -1,0 +1,11 @@
+{
+  "source": "<html></html>",
+  "filename": "file.html",
+  "config": {
+    "rules": {
+      "html-has-lang": false
+    },
+    "exclude": [],
+    "tags": []
+  }
+}
