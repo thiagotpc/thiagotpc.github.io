@@ -5,20 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiago's Publications</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="thiagotpc.css">
 </head>
 
-<body>
+<body class="container">
+
+    <header>
+        <p class="site-name">Thiago TPC's Personal Website</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio-or-resume.html">Bio or Resume</a></li>
+                <li><a class="active" href="publications.html">Publications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1>Publications</h1>
     <section>
         <h2>Academic Publications</h2>
 
-        <article>
-            <h3><a href="https://sol.sbc.org.br/journals/index.php/isys/article/view/2919">Evaluating a Collaborative IS
-                    to Support Systematic Literature Reviews and Systematic Mapping Studies</a>&nbsp;(pt-br)
+        <article vocab="https://schema.org/" typeof="Article">
+            <h3><a href="https://sol.sbc.org.br/journals/index.php/isys/article/view/2919" property="name">Evaluating a
+                    Collaborative IS
+                    to Support Systematic Literature Reviews and Systematic Mapping Studies</a>&nbsp;(<span
+                    property="inLanguage">pt-br</span>)
             </h3>
-            <p>Thiago Prado de Campos, Eduardo Filgueiras Damasceno, Natasha Malveira Costa Valentim<br>
-                iSys – Brazilian Journal of Information Systems, v. 16, n. 1, p. 8: 1-8: 33, 2023</p>
-            <p>This article presents a study to evaluate the quality of the Porifera collaborative tool, which supports
+            <p><span property="author">Thiago Prado de Campos</span>, <span property="author">Eduardo Filgueiras
+                    Damasceno</span>,
+                <span property="author">Natasha Malveira Costa Valentim</span><br>
+                iSys – Brazilian Journal of Information Systems, v. 16, n. 1, p. 8: 1-8: 33, 2023
+            </p>
+            <p property="abstract">This article presents a study to evaluate the quality of the Porifera collaborative
+                tool, which supports
                 Systematic Literature Review (SLR) and Systematic Mapping Study (SMS) processes. The study revealed a
                 high perceived usefulness and ease of use of the tool and identified points for improving the interface,
                 such as user feedback and error prevention. The quantitative and qualitative results suggest that
@@ -96,6 +118,10 @@
         <h2>Others</h2>
         <p>Cooming soon.</p>
     </section>
+
+    <nav>
+        <p><a href="index.html">back to Home</a></p>
+    </nav>
 </body>
 
 </html>
