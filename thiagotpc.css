@@ -38,7 +38,7 @@ h4,
 h5,
 h6,
 nav a {
-    color: #b3790d;
+    color: #095771;
 }
 
 header .site-name {
@@ -107,7 +107,7 @@ header nav ul li a {
 }
 
 header nav ul li:hover {
-    background-color: beige;
+    background-color: #075d7949;
 }
 
 .videoWrapper {
