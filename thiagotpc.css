@@ -28,8 +28,9 @@ body {
 }
 
 .wrap {
-    height: 100vh;
+    min-height: 95vh;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #dadcdd 100%);
+    background-attachment: fixed;
 }
 
 .wrap {
