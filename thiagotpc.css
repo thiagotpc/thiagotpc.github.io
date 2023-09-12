@@ -20,11 +20,20 @@ html {
 }
 
 body {
-    padding: 1em 1em;
     font-family: Dosis;
     font-size: 16px;
     container-type: inline-size;
     container-name: bodysite;
+    padding: 0;
+}
+
+.wrap {
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #dadcdd 100%);
+}
+
+.wrap {
+    padding: 1em 1em;
 }
 
 p {
@@ -45,6 +54,11 @@ header .site-name {
     font-weight: 700;
 }
 
+.site-icon {
+    text-align: center;
+    margin: 3em 0 0 0;
+}
+
 a {
     color: #203cd8;
 }
@@ -61,28 +75,72 @@ header {
         justify-content: space-between;
         align-items: center;
     }
+
+    .site-brand {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .site-icon {
+       margin: 0;
+    }
+
+    .site-icon img {
+        height: 3em;
+        width: 3em;
+    }
+
+    .index .site-icon img {
+        height: 4em;
+        width: 4em;
+    }
+
     .site-name {
         display: inline-block;
+        margin-left: 0.5em;
     }
+
     header nav {
         display: inline-block;
     }
-  }
+}
 
 
-  @container bodysite (max-width: 700px) {
-    
+@container bodysite (max-width: 700px) {
+
+    .Xcontent {
+        background: #fff;
+        border-radius: 0.5em;
+        padding: 1em;
+    }
+
+    .site-icon img {
+        height: 3em;
+        width: 3em;
+    }
+
+    .index .site-icon img {
+        height: 4em;
+        width: 4em;
+    }
+
     .site-name {
         text-align: center;
     }
+
     header nav ul {
         width: 100%;
         justify-content: center !important
     }
-    .index main, footer {
+
+    .index main,
+    footer {
         text-align: center;
     }
-  }
+}
 
 header nav ul {
     display: inline-flex;
@@ -98,6 +156,7 @@ header nav ul li {
     display: flex;
     align-items: stretch;
     margin: 2px;
+    border-radius: 0.5em;
 }
 
 header nav ul li a {
@@ -132,9 +191,10 @@ img.icon {
 
 img.decorative {
     border-radius: 15px;
-    max-width: 90vw;;
-    box-shadow:  10px 10px 30px #bebebe,
-                -10px -10px 30px #ffffff;
+    max-width: 90vw;
+    ;
+    box-shadow: 10px 10px 30px #bebebe,
+        -10px -10px 30px #ffffff;
 }
 
 footer {
