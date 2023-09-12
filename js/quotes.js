@@ -12,6 +12,22 @@ quotes = [{
 },{
     "text": "Reality is merely an illusion, albeit a very persistent one.",
     "author": "Albert Einstein"
+},
+{
+    "text": "I am convinced that He (God) does not play dice.",
+    "author": "Albert Einstein"
+},
+{
+    "text": "Anyone who has never made a mistake has never tried anything new.",
+    "author": "Albert Einstein"
+},
+{
+    "text": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein"
+},
+{
+    "text": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt"
 }
 ];
 
