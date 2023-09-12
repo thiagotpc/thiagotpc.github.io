@@ -79,7 +79,7 @@ header {
         width: 100%;
         justify-content: center !important
     }
-    .index main {
+    .index main, footer {
         text-align: center;
     }
   }
@@ -135,4 +135,8 @@ img.decorative {
     max-width: 90vw;;
     box-shadow:  10px 10px 30px #bebebe,
                 -10px -10px 30px #ffffff;
+}
+
+footer {
+    font-size: 0.8em;
 }
