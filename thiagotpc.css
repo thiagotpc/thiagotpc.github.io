@@ -221,3 +221,9 @@ img.decorative {
 footer {
     font-size: 0.8em;
 }
+
+.svg-email-protection {
+    width: 160px;
+    height: 2em;
+    vertical-align: middle;
+  }
