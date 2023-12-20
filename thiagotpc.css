@@ -37,7 +37,15 @@ body {
     padding: 1em 1em;
 }
 
+h1+p, h2+p {
+    margin-top: 0.3em;
+}
+
 p {
+    line-height: 1.5em;
+    margin-top: 0.5em;
+}
+li {
     line-height: 1.5em;
 }
 
@@ -48,7 +56,20 @@ h4,
 h5,
 h6,
 nav a {
-    color: #095771;
+    color: #111;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+h2 {
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+}
+h3 {
+    margin-top: 0.6em;
+    margin-bottom: 0.1em;
 }
 
 header .site-name {
@@ -61,8 +82,26 @@ header .site-name {
 }
 
 a {
-    color: #203cd8;
+    color: rgb(10, 25, 108);
+    text-decoration: none;
+    background:
+        linear-gradient(to right,
+            rgba(32, 60, 216, 1),
+            rgba(32, 60, 216, 1)),
+        linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgb(0, 255, 38),
+            rgba(0, 100, 200, 1));
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
+
+a:hover {
+    color: black;
+    background-size: 0 2px, 100% 2px;
+  }
 
 header {
     width: 100%;
@@ -86,7 +125,7 @@ header {
     }
 
     .site-icon {
-       margin: 0;
+        margin: 0;
     }
 
     .site-icon img {
@@ -174,19 +213,21 @@ blockquote {
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-  }
-  blockquote:before {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before {
     color: #ccc;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-  }
-  blockquote p {
+}
+
+blockquote p {
     display: inline;
-  }
+}
 
 
 
@@ -226,4 +267,4 @@ footer {
     width: 160px;
     height: 2em;
     vertical-align: middle;
-  }
+}
