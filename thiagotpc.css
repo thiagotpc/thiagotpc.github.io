@@ -238,8 +238,8 @@ blockquote p {
 p.headline {
     font-style: italic;
     font-size: 1em;
-    margin-bottom: 0.3em;
-    margin-top: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0;
 }
 
 
