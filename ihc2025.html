@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IHC 2025 • UUXE‑ToH — Resources & Downloads</title>
+  <meta name="description" content="Links to thesis, papers, datasets, questionnaire, and high‑resolution figures for the IHC 2025 presentation on UUXE‑ToH (Touchable Holography)." />
+  <style>
+    :root{
+      --bg:#0e0f12; --fg:#e9edf1; --muted:#aab3bd; --card:#16181d; --accent:#7cc4ff; --accent2:#b7ff7c;
+      --br:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica,Arial,sans-serif;line-height:1.5}
+    a{color:var(--accent)}
+    a:hover{color:#fff}
+    header{
+      position:sticky;top:0;backdrop-filter:saturate(180%) blur(10px);
+      background:linear-gradient(180deg,rgba(14,15,18,.9),rgba(14,15,18,.6));
+      border-bottom:1px solid #2a2f36;z-index:5
+    }
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    h1{font-size:clamp(1.5rem,2.2vw,2.2rem);margin:0}
+    .sub{color:var(--muted);font-size:.95rem;margin-top:6px}
+    .grid{display:grid;gap:16px}
+    .two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .three{grid-template-columns:repeat(3,minmax(0,1fr))}
+    @media (max-width:900px){.two,.three{grid-template-columns:1fr}}
+    section{padding:28px 0;border-bottom:1px dashed #2a2f36}
+    .card{background:var(--card);padding:18px;border-radius:var(--br);border:1px solid #242a31}
+    h2{font-size:1.3rem;margin:0 0 12px}
+    h3{font-size:1.05rem;margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid #2a2f36;color:var(--muted);font-size:.8rem}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;background:#1f6feb;color:#fff;text-decoration:none;font-weight:600;border:1px solid #2a2f36}
+    .btn.secondary{background:#2b3138}
+    .list{margin:0;padding-left:18px}
+    .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:.92em;color:#d7ffb7}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    figure{margin:0}
+    .thumb{display:block;background:#0b0c0f;border:1px solid #2a2f36;border-radius:12px;overflow:hidden;aspect-ratio:16/9}
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .figcap{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+    .figcap .left{display:flex;gap:8px;align-items:center}
+    .badge{font-size:.75rem;background:#243041;border:1px solid #2a2f36;color:#cfe3ff;padding:2px 8px;border-radius:999px}
+    footer{color:var(--muted);padding:40px 0}
+    .hr{height:1px;background:#222831;border:0;margin:16px 0}
+    .note{font-size:.92rem;color:var(--muted)}
+    .callout{border:1px solid #2a2f36;background:linear-gradient(180deg,#12151a,#0e1014);padding:14px;border-radius:12px}
+    code{background:#101318;border:1px solid #232832;color:#c8f5ff;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>IHC 2025 • UUXE‑ToH — Resources & Downloads</h1>
+      <p class="sub">Companion page for the talk <em>“A Usability and User Experience Evaluation Technology for Touchable Holographic Solutions”</em> — Belo Horizonte, MG.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="live">
+      <div class="grid two">
+        <div class="card">
+          <h2>Quick Links</h2>
+          <ul class="list">
+            <li><a href="#thesis">Doctoral thesis</a></li>
+            <li><a href="#papers">Papers</a></li>
+            <li><a href="#uuxetoh">UUXE‑ToH questionnaire & platform</a></li>
+            <li><a href="#datasets">Datasets, scripts & reports</a></li>
+            <li><a href="#figures">Figures & tables (hi‑res)</a></li>
+          </ul>
+          <div class="hr"></div>
+          <p class="note">Tip: open links in new tabs (<span class="kbd">Ctrl/⌘</span> + click) so you can keep this page during the session.</p>
+        </div>
+        <div class="card">
+          <h2>About</h2>
+          <p>This single page concentrates all resources cited in the paper and in the conference slides: thesis, peer‑reviewed articles, technical reports, questionnaire files, platform links, and high‑resolution figures.</p>
+          <p class="note">Last updated: <span id="updated">2025‑09‑04</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="thesis">
+      <h2>Thesis</h2>
+      <div class="card">
+        <h3>Doctoral Thesis — UUXE‑ToH</h3>
+        <p>Title: <em>A Usability and User Experience Evaluation Technology for Touchable Holographic Solutions</em></p>
+        <p>
+          <a class="btn" href="#" target="_blank" rel="noopener">View PDF</a>
+          <a class="btn secondary" href="#" download>Download</a>
+        </p>
+        <p class="note">Replace the two <code>href</code> attributes above with your public thesis URL(s) (e.g., institutional repository / DOI).</p>
+      </div>
+    </section>
+
+    <section id="papers">
+      <h2>Papers (selection)</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>IJHCI (2024) — Exploratory search & aspects for THS</h3>
+          <p class="muted">International Journal of Human‑Computer Interaction.</p>
+          <p>
+            <a class="btn" href="https://www.tandfonline.com/doi/10.1080/10447318.2024.2400755" target="_blank" rel="noopener">Open article</a>
+          </p>
+        </article>
+        <article class="card">
+          <h3>JIS (2025) — Extended SMS on THS evaluations</h3>
+          <p class="muted">Journal on Interactive Systems (SBC). Technical report & article.</p>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.26261951.v2" target="_blank" rel="noopener">Tech. Report</a>
+            <a class="btn secondary" href="https://journals-sol.sbc.org.br/index.php/jis/article/view/4694" target="_blank" rel="noopener">Article</a>
+          </p>
+        </article>
+        <article class="card">
+          <h3>IHC (2023) — Initial SMS</h3>
+          <p class="muted">Brazilian Symposium on Human Factors in Computing Systems.</p>
+          <p><a class="btn" href="https://dl.acm.org/doi/10.1145/3638067.3638071" target="_blank" rel="noopener">Open on ACM DL</a></p>
+        </article>
+        <article class="card">
+          <h3>SVR (2024) — Cubism evaluation with questionnaires</h3>
+          <p class="muted">Symposium on Virtual and Augmented Reality.</p>
+          <p><a class="btn" href="https://dl.acm.org/doi/10.1145/3691573.3691584" target="_blank" rel="noopener">Open article</a></p>
+        </article>
+        <article class="card">
+          <h3>ICEIS (2024, 2025) — Qualitative & performance studies</h3>
+          <p class="muted">International Conference on Enterprise Information Systems.</p>
+          <p><a class="btn" href="https://www.scitepress.org/Papers/2024/125641/125641.pdf" target="_blank" rel="noopener">Paper (2024)</a> <a class="btn secondary" href="https://www.scitepress.org/Link.aspx?doi=10.5220/0013447100003929" target="_blank" rel="noopener">Paper (2025)</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="uuxetoh">
+      <h2>UUXE‑ToH — Questionnaire & Platform</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Questionnaire — v4</h3>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.28143752.v1" target="_blank" rel="noopener">Download (Figshare DOI)</a>
+          </p>
+          <p class="muted">PDF downloads in PT‑BR and EN. Include the user manual from the platform below.</p>
+        </div>
+        <div class="card">
+          <h3>Official Platform</h3>
+          <p>Forms for data collection, dashboards (radar, heatmap), manuals, and publications list.</p>
+          <p><a class="btn" href="https://uuxetoh.thiagotpc.com" target="_blank" rel="noopener">Open platform</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="datasets">
+      <h2>Datasets, Scripts & Reports</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Study 2 — Collected data</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.26970676" target="_blank" rel="noopener">Dataset (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 2 — R scripts</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27000478" target="_blank" rel="noopener">R code (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 2 — JASP reports (ACIs & EFAs)</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.26972458" target="_blank" rel="noopener">Reports (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 3 — Data, scripts & reports</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27822213" target="_blank" rel="noopener">Package (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Validation artifacts — Qualitative codings</h3>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.27665688" target="_blank" rel="noopener">Axial coding (Study 1)</a>
+            <a class="btn secondary" href="https://doi.org/10.6084/m9.figshare.27822543" target="_blank" rel="noopener">Axial coding (Study 2)</a>
+          </p>
+        </article>
+        <article class="card">
+          <h3>Processed feedback spreadsheets</h3>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.27822558" target="_blank" rel="noopener">Study 1 → v2</a>
+            <a class="btn secondary" href="https://doi.org/10.6084/m9.figshare.27822549" target="_blank" rel="noopener">Study 2 → v3</a>
+          </p>
+        </article>
+        <article class="card">
+          <h3>Systematic Mapping — Technical reports</h3>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.22114355.v1" target="_blank" rel="noopener">Initial SMS</a>
+            <a class="btn secondary" href="https://doi.org/10.6084/m9.figshare.26261951.v2" target="_blank" rel="noopener">Extended SMS</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="figures">
+      <h2>Figures & Tables (from slides) — thumbnails + hi‑res</h2>
+      <p class="note">Put the image files under <code>/assets/</code>. Use the suggested filenames below (e.g., <code>slide05_thumb.jpg</code> and <code>slide05_full.png</code>). Replace <em>Caption…</em> with the actual figure/table caption.
+      </p>
+      <div class="gallery">
+        <!-- Repeatable card template per requested slide: 5, 9–10, 12–21, 23–27 -->
+        <!-- Slide 5 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide05_full.png" download>
+            <img src="assets/slide05_thumb.jpg" alt="Slide 5 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 5</span><span>Caption…</span></div>
+            <a href="assets/slide05_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 9 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide09_full.png" download>
+            <img src="assets/slide09_thumb.jpg" alt="Slide 9 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 9</span><span>Caption…</span></div>
+            <a href="assets/slide09_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 10 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide10_full.png" download>
+            <img src="assets/slide10_thumb.jpg" alt="Slide 10 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 10</span><span>Caption…</span></div>
+            <a href="assets/slide10_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 12 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide12_full.png" download>
+            <img src="assets/slide12_thumb.jpg" alt="Slide 12 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 12</span><span>Caption…</span></div>
+            <a href="assets/slide12_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 13 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide13_full.png" download>
+            <img src="assets/slide13_thumb.jpg" alt="Slide 13 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 13</span><span>Caption…</span></div>
+            <a href="assets/slide13_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 14 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide14_full.png" download>
+            <img src="assets/slide14_thumb.jpg" alt="Slide 14 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 14</span><span>Caption…</span></div>
+            <a href="assets/slide14_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 15 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide15_full.png" download>
+            <img src="assets/slide15_thumb.jpg" alt="Slide 15 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 15</span><span>Caption…</span></div>
+            <a href="assets/slide15_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 16 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide16_full.png" download>
+            <img src="assets/slide16_thumb.jpg" alt="Slide 16 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 16</span><span>Caption…</span></div>
+            <a href="assets/slide16_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 17 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide17_full.png" download>
+            <img src="assets/slide17_thumb.jpg" alt="Slide 17 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 17</span><span>Caption…</span></div>
+            <a href="assets/slide17_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 18 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide18_full.png" download>
+            <img src="assets/slide18_thumb.jpg" alt="Slide 18 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 18</span><span>Caption…</span></div>
+            <a href="assets/slide18_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 19 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide19_full.png" download>
+            <img src="assets/slide19_thumb.jpg" alt="Slide 19 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 19</span><span>Caption…</span></div>
+            <a href="assets/slide19_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 20 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide20_full.png" download>
+            <img src="assets/slide20_thumb.jpg" alt="Slide 20 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 20</span><span>Caption…</span></div>
+            <a href="assets/slide20_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 21 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide21_full.png" download>
+            <img src="assets/slide21_thumb.jpg" alt="Slide 21 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 21</span><span>Caption…</span></div>
+            <a href="assets/slide21_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 23 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide23_full.png" download>
+            <img src="assets/slide23_thumb.jpg" alt="Slide 23 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 23</span><span>Caption…</span></div>
+            <a href="assets/slide23_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 24 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide24_full.png" download>
+            <img src="assets/slide24_thumb.jpg" alt="Slide 24 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 24</span><span>Caption…</span></div>
+            <a href="assets/slide24_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 25 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide25_full.png" download>
+            <img src="assets/slide25_thumb.jpg" alt="Slide 25 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 25</span><span>Caption…</span></div>
+            <a href="assets/slide25_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 26 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide26_full.png" download>
+            <img src="assets/slide26_thumb.jpg" alt="Slide 26 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 26</span><span>Caption…</span></div>
+            <a href="assets/slide26_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+        <!-- Slide 27 -->
+        <figure class="card">
+          <a class="thumb" href="assets/slide27_full.png" download>
+            <img src="assets/slide27_thumb.jpg" alt="Slide 27 — Caption…" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 27</span><span>Caption…</span></div>
+            <a href="assets/slide27_full.png" download>Download</a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="callout" style="margin-top:16px">
+        <strong>Zip for offline sharing:</strong> Once images are in <code>/assets/</code>, you may package everything and share a single <code>.zip</code> together with this HTML file.
+      </div>
+    </section>
+
+    <section id="cite">
+      <h2>How to cite</h2>
+      <div class="card">
+        <p class="note">Include your preferred BibTeX/ABNT/APA citations here (paper DOI, thesis, datasets). You can copy & paste from your reference manager.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Thiago Prado de Campos — <a href="mailto:thiagocampos@utfpr.edu.br">thiagocampos@utfpr.edu.br</a></p>
+        <p class="muted">UTFPR • UFPR</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="hr"></div>
+      <p class="muted">© 2025 — UUXE‑ToH project. This page is a public companion for the IHC 2025 talk. All third‑party assets remain property of their respective owners.</p>
+    </footer>
+  </main>
+</body>
+</html>
