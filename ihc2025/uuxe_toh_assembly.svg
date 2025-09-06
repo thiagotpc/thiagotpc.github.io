@@ -1,0 +1,947 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544 840" width="1544" height="840">
+
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="4" dy="6" stdDeviation="6" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<g filter="url(#shadow)">
+<g transform="translate(-998.9,557.7)">
+      <g opacity="0">
+        <polygon points="184.0,52.0 208.0,64.0 208.0,92.0 184.0,80.0" fill="#BD790E"/><polygon points="232.0,52.0 232.0,80.0 208.0,92.0 208.0,64.0" fill="#F39C12"/><polygon points="208.0,40.0 232.0,52.0 208.0,64.0 184.0,52.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.20s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-998.9,557.7" to="0,0"
+                         begin="0.20s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1103.9,-180.0)">
+      <g opacity="0">
+        <polygon points="280.0,100.0 304.0,112.0 304.0,140.0 280.0,128.0" fill="#BD790E"/><polygon points="328.0,100.0 328.0,128.0 304.0,140.0 304.0,112.0" fill="#F39C12"/><polygon points="304.0,88.0 328.0,100.0 304.0,112.0 280.0,100.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.23s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1103.9,-180.0" to="0,0"
+                         begin="0.23s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1064.3,-215.6)">
+      <g opacity="0">
+        <polygon points="352.0,136.0 376.0,148.0 376.0,176.0 352.0,164.0" fill="#6E3586"/><polygon points="400.0,136.0 400.0,164.0 376.0,176.0 376.0,148.0" fill="#8E44AD"/><polygon points="376.0,124.0 400.0,136.0 376.0,148.0 352.0,136.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.26s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1064.3,-215.6" to="0,0"
+                         begin="0.26s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1740.1,86.5)">
+      <g opacity="0">
+        <polygon points="448.0,184.0 472.0,196.0 472.0,224.0 448.0,212.0" fill="#6E3586"/><polygon points="496.0,184.0 496.0,212.0 472.0,224.0 472.0,196.0" fill="#8E44AD"/><polygon points="472.0,172.0 496.0,184.0 472.0,196.0 448.0,184.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.29s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1740.1,86.5" to="0,0"
+                         begin="0.29s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1664.8,436.6)">
+      <g opacity="0">
+        <polygon points="520.0,220.0 544.0,232.0 544.0,260.0 520.0,248.0" fill="#2876AA"/><polygon points="568.0,220.0 568.0,248.0 544.0,260.0 544.0,232.0" fill="#3498DB"/><polygon points="544.0,208.0 568.0,220.0 544.0,232.0 520.0,220.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.32s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1664.8,436.6" to="0,0"
+                         begin="0.32s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1006.3,-760.0)">
+      <g opacity="0">
+        <polygon points="616.0,268.0 640.0,280.0 640.0,308.0 616.0,296.0" fill="#2876AA"/><polygon points="664.0,268.0 664.0,296.0 640.0,308.0 640.0,280.0" fill="#3498DB"/><polygon points="640.0,256.0 664.0,268.0 640.0,280.0 616.0,268.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.35s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1006.3,-760.0" to="0,0"
+                         begin="0.35s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1451.8,297.5)">
+      <g opacity="0">
+        <polygon points="688.0,304.0 712.0,316.0 712.0,344.0 688.0,332.0" fill="#1E874A"/><polygon points="736.0,304.0 736.0,332.0 712.0,344.0 712.0,316.0" fill="#27AE60"/><polygon points="712.0,292.0 736.0,304.0 712.0,316.0 688.0,304.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1451.8,297.5" to="0,0"
+                         begin="0.38s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(606.7,975.8)">
+      <g opacity="0">
+        <polygon points="712.0,316.0 736.0,328.0 736.0,356.0 712.0,344.0" fill="#1E874A"/><polygon points="760.0,316.0 760.0,344.0 736.0,356.0 736.0,328.0" fill="#27AE60"/><polygon points="736.0,304.0 760.0,316.0 736.0,328.0 712.0,316.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.41s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="606.7,975.8" to="0,0"
+                         begin="0.41s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-783.1,-732.0)">
+      <g opacity="0">
+        <polygon points="736.0,328.0 760.0,340.0 760.0,368.0 736.0,356.0" fill="#1E874A"/><polygon points="784.0,328.0 784.0,356.0 760.0,368.0 760.0,340.0" fill="#27AE60"/><polygon points="760.0,316.0 784.0,328.0 760.0,340.0 736.0,328.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-783.1,-732.0" to="0,0"
+                         begin="0.44s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-585.6,824.3)">
+      <g opacity="0">
+        <polygon points="760.0,340.0 784.0,352.0 784.0,380.0 760.0,368.0" fill="#1E874A"/><polygon points="808.0,340.0 808.0,368.0 784.0,380.0 784.0,352.0" fill="#27AE60"/><polygon points="784.0,328.0 808.0,340.0 784.0,352.0 760.0,340.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.47s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-585.6,824.3" to="0,0"
+                         begin="0.47s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1502.2,-399.5)">
+      <g opacity="0">
+        <polygon points="784.0,352.0 808.0,364.0 808.0,392.0 784.0,380.0" fill="#1E874A"/><polygon points="832.0,352.0 832.0,380.0 808.0,392.0 808.0,364.0" fill="#27AE60"/><polygon points="808.0,340.0 832.0,352.0 808.0,364.0 784.0,352.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1502.2,-399.5" to="0,0"
+                         begin="0.50s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1844.5,-37.5)">
+      <g opacity="0">
+        <polygon points="1024.0,472.0 1048.0,484.0 1048.0,512.0 1024.0,500.0" fill="#149279"/><polygon points="1072.0,472.0 1072.0,500.0 1048.0,512.0 1048.0,484.0" fill="#1ABC9C"/><polygon points="1048.0,460.0 1072.0,472.0 1048.0,484.0 1024.0,472.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.53s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1844.5,-37.5" to="0,0"
+                         begin="0.53s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1819.1,-7.7)">
+      <g opacity="0">
+        <polygon points="1048.0,484.0 1072.0,496.0 1072.0,524.0 1048.0,512.0" fill="#149279"/><polygon points="1096.0,484.0 1096.0,512.0 1072.0,524.0 1072.0,496.0" fill="#1ABC9C"/><polygon points="1072.0,472.0 1096.0,484.0 1072.0,496.0 1048.0,484.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.56s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1819.1,-7.7" to="0,0"
+                         begin="0.56s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1144.5,-958.1)">
+      <g opacity="0">
+        <polygon points="1072.0,496.0 1096.0,508.0 1096.0,536.0 1072.0,524.0" fill="#149279"/><polygon points="1120.0,496.0 1120.0,524.0 1096.0,536.0 1096.0,508.0" fill="#1ABC9C"/><polygon points="1096.0,484.0 1120.0,496.0 1096.0,508.0 1072.0,496.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.59s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1144.5,-958.1" to="0,0"
+                         begin="0.59s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1059.2,-108.1)">
+      <g opacity="0">
+        <polygon points="1096.0,508.0 1120.0,520.0 1120.0,548.0 1096.0,536.0" fill="#149279"/><polygon points="1144.0,508.0 1144.0,536.0 1120.0,548.0 1120.0,520.0" fill="#1ABC9C"/><polygon points="1120.0,496.0 1144.0,508.0 1120.0,520.0 1096.0,508.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.62s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1059.2,-108.1" to="0,0"
+                         begin="0.62s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-514.7,-1044.8)">
+      <g opacity="0">
+        <polygon points="1120.0,520.0 1144.0,532.0 1144.0,560.0 1120.0,548.0" fill="#149279"/><polygon points="1168.0,520.0 1168.0,548.0 1144.0,560.0 1144.0,532.0" fill="#1ABC9C"/><polygon points="1144.0,508.0 1168.0,520.0 1144.0,532.0 1120.0,520.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-514.7,-1044.8" to="0,0"
+                         begin="0.65s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-602.0,-1046.2)">
+      <g opacity="0">
+        <polygon points="1360.0,640.0 1384.0,652.0 1384.0,680.0 1360.0,668.0" fill="#B43B2E"/><polygon points="1408.0,640.0 1408.0,668.0 1384.0,680.0 1384.0,652.0" fill="#E74C3C"/><polygon points="1384.0,628.0 1408.0,640.0 1384.0,652.0 1360.0,640.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-602.0,-1046.2" to="0,0"
+                         begin="0.68s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(765.7,-190.3)">
+      <g opacity="0">
+        <polygon points="1456.0,688.0 1480.0,700.0 1480.0,728.0 1456.0,716.0" fill="#B43B2E"/><polygon points="1504.0,688.0 1504.0,716.0 1480.0,728.0 1480.0,700.0" fill="#E74C3C"/><polygon points="1480.0,676.0 1504.0,688.0 1480.0,700.0 1456.0,688.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.71s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="765.7,-190.3" to="0,0"
+                         begin="0.71s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-809.3,101.2)">
+      <g opacity="0">
+        <polygon points="160.0,64.0 184.0,76.0 184.0,104.0 160.0,92.0" fill="#BD790E"/><polygon points="208.0,64.0 208.0,92.0 184.0,104.0 184.0,76.0" fill="#F39C12"/><polygon points="184.0,52.0 208.0,64.0 184.0,76.0 160.0,64.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.74s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-809.3,101.2" to="0,0"
+                         begin="0.74s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-133.0,-535.7)">
+      <g opacity="0">
+        <polygon points="256.0,112.0 280.0,124.0 280.0,152.0 256.0,140.0" fill="#BD790E"/><polygon points="304.0,112.0 304.0,140.0 280.0,152.0 280.0,124.0" fill="#F39C12"/><polygon points="280.0,100.0 304.0,112.0 280.0,124.0 256.0,112.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.77s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-133.0,-535.7" to="0,0"
+                         begin="0.77s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(793.9,-626.8)">
+      <g opacity="0">
+        <polygon points="328.0,148.0 352.0,160.0 352.0,188.0 328.0,176.0" fill="#6E3586"/><polygon points="376.0,148.0 376.0,176.0 352.0,188.0 352.0,160.0" fill="#8E44AD"/><polygon points="352.0,136.0 376.0,148.0 352.0,160.0 328.0,148.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="793.9,-626.8" to="0,0"
+                         begin="0.80s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(821.7,-617.1)">
+      <g opacity="0">
+        <polygon points="424.0,196.0 448.0,208.0 448.0,236.0 424.0,224.0" fill="#6E3586"/><polygon points="472.0,196.0 472.0,224.0 448.0,236.0 448.0,208.0" fill="#8E44AD"/><polygon points="448.0,184.0 472.0,196.0 448.0,208.0 424.0,196.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="821.7,-617.1" to="0,0"
+                         begin="0.83s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1448.5,529.8)">
+      <g opacity="0">
+        <polygon points="520.0,244.0 544.0,256.0 544.0,284.0 520.0,272.0" fill="#2876AA"/><polygon points="568.0,244.0 568.0,272.0 544.0,284.0 544.0,256.0" fill="#3498DB"/><polygon points="544.0,232.0 568.0,244.0 544.0,256.0 520.0,244.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.86s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1448.5,529.8" to="0,0"
+                         begin="0.86s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1394.6,112.5)">
+      <g opacity="0">
+        <polygon points="568.0,268.0 592.0,280.0 592.0,308.0 568.0,296.0" fill="#2876AA"/><polygon points="616.0,268.0 616.0,296.0 592.0,308.0 592.0,280.0" fill="#3498DB"/><polygon points="592.0,256.0 616.0,268.0 592.0,280.0 568.0,268.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.89s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1394.6,112.5" to="0,0"
+                         begin="0.89s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-30.7,-767.0)">
+      <g opacity="0">
+        <polygon points="664.0,316.0 688.0,328.0 688.0,356.0 664.0,344.0" fill="#1E874A"/><polygon points="712.0,316.0 712.0,344.0 688.0,356.0 688.0,328.0" fill="#27AE60"/><polygon points="688.0,304.0 712.0,316.0 688.0,328.0 664.0,316.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-30.7,-767.0" to="0,0"
+                         begin="0.92s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-939.6,689.8)">
+      <g opacity="0">
+        <polygon points="1048.0,508.0 1072.0,520.0 1072.0,548.0 1048.0,536.0" fill="#149279"/><polygon points="1096.0,508.0 1096.0,536.0 1072.0,548.0 1072.0,520.0" fill="#1ABC9C"/><polygon points="1072.0,496.0 1096.0,508.0 1072.0,520.0 1048.0,508.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-939.6,689.8" to="0,0"
+                         begin="0.95s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-2183.8,-205.0)">
+      <g opacity="0">
+        <polygon points="1336.0,652.0 1360.0,664.0 1360.0,692.0 1336.0,680.0" fill="#B43B2E"/><polygon points="1384.0,652.0 1384.0,680.0 1360.0,692.0 1360.0,664.0" fill="#E74C3C"/><polygon points="1360.0,640.0 1384.0,652.0 1360.0,664.0 1336.0,652.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="0.98s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-2183.8,-205.0" to="0,0"
+                         begin="0.98s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(193.9,573.9)">
+      <g opacity="0">
+        <polygon points="1432.0,700.0 1456.0,712.0 1456.0,740.0 1432.0,728.0" fill="#B43B2E"/><polygon points="1480.0,700.0 1480.0,728.0 1456.0,740.0 1456.0,712.0" fill="#E74C3C"/><polygon points="1456.0,688.0 1480.0,700.0 1456.0,712.0 1432.0,700.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.01s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="193.9,573.9" to="0,0"
+                         begin="1.01s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1002.9,352.5)">
+      <g opacity="0">
+        <polygon points="136.0,76.0 160.0,88.0 160.0,116.0 136.0,104.0" fill="#BD790E"/><polygon points="184.0,76.0 184.0,104.0 160.0,116.0 160.0,88.0" fill="#F39C12"/><polygon points="160.0,64.0 184.0,76.0 160.0,88.0 136.0,76.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.04s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1002.9,352.5" to="0,0"
+                         begin="1.04s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-221.0,-551.8)">
+      <g opacity="0">
+        <polygon points="232.0,124.0 256.0,136.0 256.0,164.0 232.0,152.0" fill="#BD790E"/><polygon points="280.0,124.0 280.0,152.0 256.0,164.0 256.0,136.0" fill="#F39C12"/><polygon points="256.0,112.0 280.0,124.0 256.0,136.0 232.0,124.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.07s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-221.0,-551.8" to="0,0"
+                         begin="1.07s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1990.9,-180.4)">
+      <g opacity="0">
+        <polygon points="304.0,160.0 328.0,172.0 328.0,200.0 304.0,188.0" fill="#6E3586"/><polygon points="352.0,160.0 352.0,188.0 328.0,200.0 328.0,172.0" fill="#8E44AD"/><polygon points="328.0,148.0 352.0,160.0 328.0,172.0 304.0,160.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1990.9,-180.4" to="0,0"
+                         begin="1.10s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(805.7,-644.0)">
+      <g opacity="0">
+        <polygon points="400.0,208.0 424.0,220.0 424.0,248.0 400.0,236.0" fill="#6E3586"/><polygon points="448.0,208.0 448.0,236.0 424.0,248.0 424.0,220.0" fill="#8E44AD"/><polygon points="424.0,196.0 448.0,208.0 424.0,220.0 400.0,208.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="805.7,-644.0" to="0,0"
+                         begin="1.13s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1088.4,1036.1)">
+      <g opacity="0">
+        <polygon points="520.0,268.0 544.0,280.0 544.0,308.0 520.0,296.0" fill="#2876AA"/><polygon points="568.0,268.0 568.0,296.0 544.0,308.0 544.0,280.0" fill="#3498DB"/><polygon points="544.0,256.0 568.0,268.0 544.0,280.0 520.0,268.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.16s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1088.4,1036.1" to="0,0"
+                         begin="1.16s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1489.5,552.0)">
+      <g opacity="0">
+        <polygon points="640.0,328.0 664.0,340.0 664.0,368.0 640.0,356.0" fill="#1E874A"/><polygon points="688.0,328.0 688.0,356.0 664.0,368.0 664.0,340.0" fill="#27AE60"/><polygon points="664.0,316.0 688.0,328.0 664.0,340.0 640.0,328.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.19s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1489.5,552.0" to="0,0"
+                         begin="1.19s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1292.4,-591.9)">
+      <g opacity="0">
+        <polygon points="1024.0,520.0 1048.0,532.0 1048.0,560.0 1024.0,548.0" fill="#149279"/><polygon points="1072.0,520.0 1072.0,548.0 1048.0,560.0 1048.0,532.0" fill="#1ABC9C"/><polygon points="1048.0,508.0 1072.0,520.0 1048.0,532.0 1024.0,520.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.22s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1292.4,-591.9" to="0,0"
+                         begin="1.22s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(958.3,-733.8)">
+      <g opacity="0">
+        <polygon points="1312.0,664.0 1336.0,676.0 1336.0,704.0 1312.0,692.0" fill="#B43B2E"/><polygon points="1360.0,664.0 1360.0,692.0 1336.0,704.0 1336.0,676.0" fill="#E74C3C"/><polygon points="1336.0,652.0 1360.0,664.0 1336.0,676.0 1312.0,664.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.25s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="958.3,-733.8" to="0,0"
+                         begin="1.25s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-564.2,507.9)">
+      <g opacity="0">
+        <polygon points="1408.0,712.0 1432.0,724.0 1432.0,752.0 1408.0,740.0" fill="#B43B2E"/><polygon points="1456.0,712.0 1456.0,740.0 1432.0,752.0 1432.0,724.0" fill="#E74C3C"/><polygon points="1432.0,700.0 1456.0,712.0 1432.0,724.0 1408.0,712.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.28s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-564.2,507.9" to="0,0"
+                         begin="1.28s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-987.9,-39.1)">
+      <g opacity="0">
+        <polygon points="112.0,88.0 136.0,100.0 136.0,128.0 112.0,116.0" fill="#BD790E"/><polygon points="160.0,88.0 160.0,116.0 136.0,128.0 136.0,100.0" fill="#F39C12"/><polygon points="136.0,76.0 160.0,88.0 136.0,100.0 112.0,88.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.31s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-987.9,-39.1" to="0,0"
+                         begin="1.31s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(22.0,1111.0)">
+      <g opacity="0">
+        <polygon points="208.0,136.0 232.0,148.0 232.0,176.0 208.0,164.0" fill="#BD790E"/><polygon points="256.0,136.0 256.0,164.0 232.0,176.0 232.0,148.0" fill="#F39C12"/><polygon points="232.0,124.0 256.0,136.0 232.0,148.0 208.0,136.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.34s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="22.0,1111.0" to="0,0"
+                         begin="1.34s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-64.4,-619.9)">
+      <g opacity="0">
+        <polygon points="280.0,172.0 304.0,184.0 304.0,212.0 280.0,200.0" fill="#6E3586"/><polygon points="328.0,172.0 328.0,200.0 304.0,212.0 304.0,184.0" fill="#8E44AD"/><polygon points="304.0,160.0 328.0,172.0 304.0,184.0 280.0,172.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.37s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-64.4,-619.9" to="0,0"
+                         begin="1.37s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(188.9,-595.1)">
+      <g opacity="0">
+        <polygon points="376.0,220.0 400.0,232.0 400.0,260.0 376.0,248.0" fill="#6E3586"/><polygon points="424.0,220.0 424.0,248.0 400.0,260.0 400.0,232.0" fill="#8E44AD"/><polygon points="400.0,208.0 424.0,220.0 400.0,232.0 376.0,220.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.40s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="188.9,-595.1" to="0,0"
+                         begin="1.40s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1885.8,22.2)">
+      <g opacity="0">
+        <polygon points="472.0,268.0 496.0,280.0 496.0,308.0 472.0,296.0" fill="#2876AA"/><polygon points="520.0,268.0 520.0,296.0 496.0,308.0 496.0,280.0" fill="#3498DB"/><polygon points="496.0,256.0 520.0,268.0 496.0,280.0 472.0,268.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.43s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1885.8,22.2" to="0,0"
+                         begin="1.43s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1657.2,75.1)">
+      <g opacity="0">
+        <polygon points="520.0,292.0 544.0,304.0 544.0,332.0 520.0,320.0" fill="#2876AA"/><polygon points="568.0,292.0 568.0,320.0 544.0,332.0 544.0,304.0" fill="#3498DB"/><polygon points="544.0,280.0 568.0,292.0 544.0,304.0 520.0,292.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.46s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1657.2,75.1" to="0,0"
+                         begin="1.46s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1328.3,460.7)">
+      <g opacity="0">
+        <polygon points="616.0,340.0 640.0,352.0 640.0,380.0 616.0,368.0" fill="#1E874A"/><polygon points="664.0,340.0 664.0,368.0 640.0,380.0 640.0,352.0" fill="#27AE60"/><polygon points="640.0,328.0 664.0,340.0 640.0,352.0 616.0,340.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.49s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1328.3,460.7" to="0,0"
+                         begin="1.49s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1580.8,469.8)">
+      <g opacity="0">
+        <polygon points="640.0,352.0 664.0,364.0 664.0,392.0 640.0,380.0" fill="#1E874A"/><polygon points="688.0,352.0 688.0,380.0 664.0,392.0 664.0,364.0" fill="#27AE60"/><polygon points="664.0,340.0 688.0,352.0 664.0,364.0 640.0,352.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.52s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1580.8,469.8" to="0,0"
+                         begin="1.52s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-186.0,853.1)">
+      <g opacity="0">
+        <polygon points="664.0,364.0 688.0,376.0 688.0,404.0 664.0,392.0" fill="#1E874A"/><polygon points="712.0,364.0 712.0,392.0 688.0,404.0 688.0,376.0" fill="#27AE60"/><polygon points="688.0,352.0 712.0,364.0 688.0,376.0 664.0,364.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.55s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-186.0,853.1" to="0,0"
+                         begin="1.55s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1348.3,246.0)">
+      <g opacity="0">
+        <polygon points="688.0,376.0 712.0,388.0 712.0,416.0 688.0,404.0" fill="#1E874A"/><polygon points="736.0,376.0 736.0,404.0 712.0,416.0 712.0,388.0" fill="#27AE60"/><polygon points="712.0,364.0 736.0,376.0 712.0,388.0 688.0,376.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.58s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1348.3,246.0" to="0,0"
+                         begin="1.58s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1446.6,445.2)">
+      <g opacity="0">
+        <polygon points="808.0,436.0 832.0,448.0 832.0,476.0 808.0,464.0" fill="#78458D"/><polygon points="856.0,436.0 856.0,464.0 832.0,476.0 832.0,448.0" fill="#9B59B6"/><polygon points="832.0,424.0 856.0,436.0 832.0,448.0 808.0,436.0" fill="#AD63CB"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.61s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1446.6,445.2" to="0,0"
+                         begin="1.61s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1357.0,-70.5)">
+      <g opacity="0">
+        <polygon points="832.0,448.0 856.0,460.0 856.0,488.0 832.0,476.0" fill="#78458D"/><polygon points="880.0,448.0 880.0,476.0 856.0,488.0 856.0,460.0" fill="#9B59B6"/><polygon points="856.0,436.0 880.0,448.0 856.0,460.0 832.0,448.0" fill="#AD63CB"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.64s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1357.0,-70.5" to="0,0"
+                         begin="1.64s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1548.6,337.7)">
+      <g opacity="0">
+        <polygon points="856.0,460.0 880.0,472.0 880.0,500.0 856.0,488.0" fill="#78458D"/><polygon points="904.0,460.0 904.0,488.0 880.0,500.0 880.0,472.0" fill="#9B59B6"/><polygon points="880.0,448.0 904.0,460.0 880.0,472.0 856.0,460.0" fill="#AD63CB"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.67s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1548.6,337.7" to="0,0"
+                         begin="1.67s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1158.8,-575.5)">
+      <g opacity="0">
+        <polygon points="1000.0,532.0 1024.0,544.0 1024.0,572.0 1000.0,560.0" fill="#149279"/><polygon points="1048.0,532.0 1048.0,560.0 1024.0,572.0 1024.0,544.0" fill="#1ABC9C"/><polygon points="1024.0,520.0 1048.0,532.0 1024.0,544.0 1000.0,532.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.70s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1158.8,-575.5" to="0,0"
+                         begin="1.70s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1128.9,-168.4)">
+      <g opacity="0">
+        <polygon points="1144.0,604.0 1168.0,616.0 1168.0,644.0 1144.0,632.0" fill="#B3621A"/><polygon points="1192.0,604.0 1192.0,632.0 1168.0,644.0 1168.0,616.0" fill="#E67E22"/><polygon points="1168.0,592.0 1192.0,604.0 1168.0,616.0 1144.0,604.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.73s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1128.9,-168.4" to="0,0"
+                         begin="1.73s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1832.2,-513.1)">
+      <g opacity="0">
+        <polygon points="1168.0,616.0 1192.0,628.0 1192.0,656.0 1168.0,644.0" fill="#B3621A"/><polygon points="1216.0,616.0 1216.0,644.0 1192.0,656.0 1192.0,628.0" fill="#E67E22"/><polygon points="1192.0,604.0 1216.0,616.0 1192.0,628.0 1168.0,616.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.76s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1832.2,-513.1" to="0,0"
+                         begin="1.76s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1125.0,-1050.6)">
+      <g opacity="0">
+        <polygon points="1192.0,628.0 1216.0,640.0 1216.0,668.0 1192.0,656.0" fill="#B3621A"/><polygon points="1240.0,628.0 1240.0,656.0 1216.0,668.0 1216.0,640.0" fill="#E67E22"/><polygon points="1216.0,616.0 1240.0,628.0 1216.0,640.0 1192.0,628.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.79s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1125.0,-1050.6" to="0,0"
+                         begin="1.79s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1384.7,-1096.0)">
+      <g opacity="0">
+        <polygon points="1288.0,676.0 1312.0,688.0 1312.0,716.0 1288.0,704.0" fill="#B43B2E"/><polygon points="1336.0,676.0 1336.0,704.0 1312.0,716.0 1312.0,688.0" fill="#E74C3C"/><polygon points="1312.0,664.0 1336.0,676.0 1312.0,688.0 1288.0,676.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.82s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1384.7,-1096.0" to="0,0"
+                         begin="1.82s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-2228.3,-51.6)">
+      <g opacity="0">
+        <polygon points="1312.0,688.0 1336.0,700.0 1336.0,728.0 1312.0,716.0" fill="#B43B2E"/><polygon points="1360.0,688.0 1360.0,716.0 1336.0,728.0 1336.0,700.0" fill="#E74C3C"/><polygon points="1336.0,676.0 1360.0,688.0 1336.0,700.0 1312.0,688.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.85s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-2228.3,-51.6" to="0,0"
+                         begin="1.85s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(970.1,29.3)">
+      <g opacity="0">
+        <polygon points="1336.0,700.0 1360.0,712.0 1360.0,740.0 1336.0,728.0" fill="#B43B2E"/><polygon points="1384.0,700.0 1384.0,728.0 1360.0,740.0 1360.0,712.0" fill="#E74C3C"/><polygon points="1360.0,688.0 1384.0,700.0 1360.0,712.0 1336.0,700.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.88s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="970.1,29.3" to="0,0"
+                         begin="1.88s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-2279.2,-612.2)">
+      <g opacity="0">
+        <polygon points="1360.0,712.0 1384.0,724.0 1384.0,752.0 1360.0,740.0" fill="#B43B2E"/><polygon points="1408.0,712.0 1408.0,740.0 1384.0,752.0 1384.0,724.0" fill="#E74C3C"/><polygon points="1384.0,700.0 1408.0,712.0 1384.0,724.0 1360.0,712.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.91s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-2279.2,-612.2" to="0,0"
+                         begin="1.91s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-2054.1,-409.0)">
+      <g opacity="0">
+        <polygon points="1384.0,724.0 1408.0,736.0 1408.0,764.0 1384.0,752.0" fill="#B43B2E"/><polygon points="1432.0,724.0 1432.0,752.0 1408.0,764.0 1408.0,736.0" fill="#E74C3C"/><polygon points="1408.0,712.0 1432.0,724.0 1408.0,736.0 1384.0,724.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.94s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-2054.1,-409.0" to="0,0"
+                         begin="1.94s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-797.1,297.4)">
+      <g opacity="0">
+        <polygon points="88.0,100.0 112.0,112.0 112.0,140.0 88.0,128.0" fill="#BD790E"/><polygon points="136.0,100.0 136.0,128.0 112.0,140.0 112.0,112.0" fill="#F39C12"/><polygon points="112.0,88.0 136.0,100.0 112.0,112.0 88.0,100.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="1.97s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-797.1,297.4" to="0,0"
+                         begin="1.97s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1996.7,-156.7)">
+      <g opacity="0">
+        <polygon points="184.0,148.0 208.0,160.0 208.0,188.0 184.0,176.0" fill="#BD790E"/><polygon points="232.0,148.0 232.0,176.0 208.0,188.0 208.0,160.0" fill="#F39C12"/><polygon points="208.0,136.0 232.0,148.0 208.0,160.0 184.0,148.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.00s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1996.7,-156.7" to="0,0"
+                         begin="2.00s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(2093.0,553.6)">
+      <g opacity="0">
+        <polygon points="256.0,184.0 280.0,196.0 280.0,224.0 256.0,212.0" fill="#6E3586"/><polygon points="304.0,184.0 304.0,212.0 280.0,224.0 280.0,196.0" fill="#8E44AD"/><polygon points="280.0,172.0 304.0,184.0 280.0,196.0 256.0,184.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.03s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="2093.0,553.6" to="0,0"
+                         begin="2.03s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1181.7,-171.5)">
+      <g opacity="0">
+        <polygon points="352.0,232.0 376.0,244.0 376.0,272.0 352.0,260.0" fill="#6E3586"/><polygon points="400.0,232.0 400.0,260.0 376.0,272.0 376.0,244.0" fill="#8E44AD"/><polygon points="376.0,220.0 400.0,232.0 376.0,244.0 352.0,232.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.06s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1181.7,-171.5" to="0,0"
+                         begin="2.06s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1334.4,-79.2)">
+      <g opacity="0">
+        <polygon points="424.0,268.0 448.0,280.0 448.0,308.0 424.0,296.0" fill="#2876AA"/><polygon points="472.0,268.0 472.0,296.0 448.0,308.0 448.0,280.0" fill="#3498DB"/><polygon points="448.0,256.0 472.0,268.0 448.0,280.0 424.0,268.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.09s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1334.4,-79.2" to="0,0"
+                         begin="2.09s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(107.1,-756.2)">
+      <g opacity="0">
+        <polygon points="520.0,316.0 544.0,328.0 544.0,356.0 520.0,344.0" fill="#2876AA"/><polygon points="568.0,316.0 568.0,344.0 544.0,356.0 544.0,328.0" fill="#3498DB"/><polygon points="544.0,304.0 568.0,316.0 544.0,328.0 520.0,316.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.12s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="107.1,-756.2" to="0,0"
+                         begin="2.12s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1415.3,-232.0)">
+      <g opacity="0">
+        <polygon points="592.0,352.0 616.0,364.0 616.0,392.0 592.0,380.0" fill="#1E874A"/><polygon points="640.0,352.0 640.0,380.0 616.0,392.0 616.0,364.0" fill="#27AE60"/><polygon points="616.0,340.0 640.0,352.0 616.0,364.0 592.0,352.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.15s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1415.3,-232.0" to="0,0"
+                         begin="2.15s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(562.3,-1039.9)">
+      <g opacity="0">
+        <polygon points="976.0,544.0 1000.0,556.0 1000.0,584.0 976.0,572.0" fill="#149279"/><polygon points="1024.0,544.0 1024.0,572.0 1000.0,584.0 1000.0,556.0" fill="#1ABC9C"/><polygon points="1000.0,532.0 1024.0,544.0 1000.0,556.0 976.0,544.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.18s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="562.3,-1039.9" to="0,0"
+                         begin="2.18s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1764.5,-101.9)">
+      <g opacity="0">
+        <polygon points="1120.0,616.0 1144.0,628.0 1144.0,656.0 1120.0,644.0" fill="#B3621A"/><polygon points="1168.0,616.0 1168.0,644.0 1144.0,656.0 1144.0,628.0" fill="#E67E22"/><polygon points="1144.0,604.0 1168.0,616.0 1144.0,628.0 1120.0,616.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.21s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1764.5,-101.9" to="0,0"
+                         begin="2.21s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-904.2,-1070.5)">
+      <g opacity="0">
+        <polygon points="1168.0,640.0 1192.0,652.0 1192.0,680.0 1168.0,668.0" fill="#B3621A"/><polygon points="1216.0,640.0 1216.0,668.0 1192.0,680.0 1192.0,652.0" fill="#E67E22"/><polygon points="1192.0,628.0 1216.0,640.0 1192.0,652.0 1168.0,640.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.24s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-904.2,-1070.5" to="0,0"
+                         begin="2.24s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1065.2,-1158.6)">
+      <g opacity="0">
+        <polygon points="1264.0,688.0 1288.0,700.0 1288.0,728.0 1264.0,716.0" fill="#B43B2E"/><polygon points="1312.0,688.0 1312.0,716.0 1288.0,728.0 1288.0,700.0" fill="#E74C3C"/><polygon points="1288.0,676.0 1312.0,688.0 1288.0,700.0 1264.0,688.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.27s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1065.2,-1158.6" to="0,0"
+                         begin="2.27s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-2291.5,-712.6)">
+      <g opacity="0">
+        <polygon points="1360.0,736.0 1384.0,748.0 1384.0,776.0 1360.0,764.0" fill="#B43B2E"/><polygon points="1408.0,736.0 1408.0,764.0 1384.0,776.0 1384.0,748.0" fill="#E74C3C"/><polygon points="1384.0,724.0 1408.0,736.0 1384.0,748.0 1360.0,736.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.30s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-2291.5,-712.6" to="0,0"
+                         begin="2.30s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-909.8,555.3)">
+      <g opacity="0">
+        <polygon points="64.0,112.0 88.0,124.0 88.0,152.0 64.0,140.0" fill="#BD790E"/><polygon points="112.0,112.0 112.0,140.0 88.0,152.0 88.0,124.0" fill="#F39C12"/><polygon points="88.0,100.0 112.0,112.0 88.0,124.0 64.0,112.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.33s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-909.8,555.3" to="0,0"
+                         begin="2.33s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-192.4,1037.3)">
+      <g opacity="0">
+        <polygon points="160.0,160.0 184.0,172.0 184.0,200.0 160.0,188.0" fill="#BD790E"/><polygon points="208.0,160.0 208.0,188.0 184.0,200.0 184.0,172.0" fill="#F39C12"/><polygon points="184.0,148.0 208.0,160.0 184.0,172.0 160.0,160.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.36s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-192.4,1037.3" to="0,0"
+                         begin="2.36s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-992.4,292.7)">
+      <g opacity="0">
+        <polygon points="232.0,196.0 256.0,208.0 256.0,236.0 232.0,224.0" fill="#6E3586"/><polygon points="280.0,196.0 280.0,224.0 256.0,236.0 256.0,208.0" fill="#8E44AD"/><polygon points="256.0,184.0 280.0,196.0 256.0,208.0 232.0,196.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.39s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-992.4,292.7" to="0,0"
+                         begin="2.39s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1235.5,-201.9)">
+      <g opacity="0">
+        <polygon points="328.0,244.0 352.0,256.0 352.0,284.0 328.0,272.0" fill="#6E3586"/><polygon points="376.0,244.0 376.0,272.0 352.0,284.0 352.0,256.0" fill="#8E44AD"/><polygon points="352.0,232.0 376.0,244.0 352.0,256.0 328.0,244.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.42s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1235.5,-201.9" to="0,0"
+                         begin="2.42s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1819.4,487.4)">
+      <g opacity="0">
+        <polygon points="400.0,280.0 424.0,292.0 424.0,320.0 400.0,308.0" fill="#2876AA"/><polygon points="448.0,280.0 448.0,308.0 424.0,320.0 424.0,292.0" fill="#3498DB"/><polygon points="424.0,268.0 448.0,280.0 424.0,292.0 400.0,280.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.45s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1819.4,487.4" to="0,0"
+                         begin="2.45s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1439.6,97.0)">
+      <g opacity="0">
+        <polygon points="496.0,328.0 520.0,340.0 520.0,368.0 496.0,356.0" fill="#2876AA"/><polygon points="544.0,328.0 544.0,356.0 520.0,368.0 520.0,340.0" fill="#3498DB"/><polygon points="520.0,316.0 544.0,328.0 520.0,340.0 496.0,328.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.48s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1439.6,97.0" to="0,0"
+                         begin="2.48s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-486.7,814.8)">
+      <g opacity="0">
+        <polygon points="568.0,364.0 592.0,376.0 592.0,404.0 568.0,392.0" fill="#1E874A"/><polygon points="616.0,364.0 616.0,392.0 592.0,404.0 592.0,376.0" fill="#27AE60"/><polygon points="592.0,352.0 616.0,364.0 592.0,376.0 568.0,364.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.51s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-486.7,814.8" to="0,0"
+                         begin="2.51s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(601.4,-954.3)">
+      <g opacity="0">
+        <polygon points="952.0,556.0 976.0,568.0 976.0,596.0 952.0,584.0" fill="#149279"/><polygon points="1000.0,556.0 1000.0,584.0 976.0,596.0 976.0,568.0" fill="#1ABC9C"/><polygon points="976.0,544.0 1000.0,556.0 976.0,568.0 952.0,556.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.54s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="601.4,-954.3" to="0,0"
+                         begin="2.54s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-427.3,-1148.1)">
+      <g opacity="0">
+        <polygon points="1096.0,628.0 1120.0,640.0 1120.0,668.0 1096.0,656.0" fill="#B3621A"/><polygon points="1144.0,628.0 1144.0,656.0 1120.0,668.0 1120.0,640.0" fill="#E67E22"/><polygon points="1120.0,616.0 1144.0,628.0 1120.0,640.0 1096.0,628.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.57s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-427.3,-1148.1" to="0,0"
+                         begin="2.57s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-2033.1,-379.5)">
+      <g opacity="0">
+        <polygon points="1120.0,640.0 1144.0,652.0 1144.0,680.0 1120.0,668.0" fill="#B3621A"/><polygon points="1168.0,640.0 1168.0,668.0 1144.0,680.0 1144.0,652.0" fill="#E67E22"/><polygon points="1144.0,628.0 1168.0,640.0 1144.0,652.0 1120.0,640.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.60s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-2033.1,-379.5" to="0,0"
+                         begin="2.60s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-189.1,-1181.9)">
+      <g opacity="0">
+        <polygon points="1144.0,652.0 1168.0,664.0 1168.0,692.0 1144.0,680.0" fill="#B3621A"/><polygon points="1192.0,652.0 1192.0,680.0 1168.0,692.0 1168.0,664.0" fill="#E67E22"/><polygon points="1168.0,640.0 1192.0,652.0 1168.0,664.0 1144.0,652.0" fill="#FF8D26"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.63s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-189.1,-1181.9" to="0,0"
+                         begin="2.63s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1103.5,-455.5)">
+      <g opacity="0">
+        <polygon points="1240.0,700.0 1264.0,712.0 1264.0,740.0 1240.0,728.0" fill="#B43B2E"/><polygon points="1288.0,700.0 1288.0,728.0 1264.0,740.0 1264.0,712.0" fill="#E74C3C"/><polygon points="1264.0,688.0 1288.0,700.0 1264.0,712.0 1240.0,700.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.66s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1103.5,-455.5" to="0,0"
+                         begin="2.66s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(151.2,-1245.7)">
+      <g opacity="0">
+        <polygon points="1336.0,748.0 1360.0,760.0 1360.0,788.0 1336.0,776.0" fill="#B43B2E"/><polygon points="1384.0,748.0 1384.0,776.0 1360.0,788.0 1360.0,760.0" fill="#E74C3C"/><polygon points="1360.0,736.0 1384.0,748.0 1360.0,760.0 1336.0,748.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.69s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="151.2,-1245.7" to="0,0"
+                         begin="2.69s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1351.8,-589.4)">
+      <g opacity="0">
+        <polygon points="40.0,124.0 64.0,136.0 64.0,164.0 40.0,152.0" fill="#BD790E"/><polygon points="88.0,124.0 88.0,152.0 64.0,164.0 64.0,136.0" fill="#F39C12"/><polygon points="64.0,112.0 88.0,124.0 64.0,136.0 40.0,124.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.72s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1351.8,-589.4" to="0,0"
+                         begin="2.72s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(272.6,1118.8)">
+      <g opacity="0">
+        <polygon points="64.0,136.0 88.0,148.0 88.0,176.0 64.0,164.0" fill="#BD790E"/><polygon points="112.0,136.0 112.0,164.0 88.0,176.0 88.0,148.0" fill="#F39C12"/><polygon points="88.0,124.0 112.0,136.0 88.0,148.0 64.0,136.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.75s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="272.6,1118.8" to="0,0"
+                         begin="2.75s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(803.3,-630.4)">
+      <g opacity="0">
+        <polygon points="88.0,148.0 112.0,160.0 112.0,188.0 88.0,176.0" fill="#BD790E"/><polygon points="136.0,148.0 136.0,176.0 112.0,188.0 112.0,160.0" fill="#F39C12"/><polygon points="112.0,136.0 136.0,148.0 112.0,160.0 88.0,148.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.78s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="803.3,-630.4" to="0,0"
+                         begin="2.78s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1017.7,601.4)">
+      <g opacity="0">
+        <polygon points="112.0,160.0 136.0,172.0 136.0,200.0 112.0,188.0" fill="#BD790E"/><polygon points="160.0,160.0 160.0,188.0 136.0,200.0 136.0,172.0" fill="#F39C12"/><polygon points="136.0,148.0 160.0,160.0 136.0,172.0 112.0,160.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.81s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1017.7,601.4" to="0,0"
+                         begin="2.81s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(316.0,1002.1)">
+      <g opacity="0">
+        <polygon points="136.0,172.0 160.0,184.0 160.0,212.0 136.0,200.0" fill="#BD790E"/><polygon points="184.0,172.0 184.0,200.0 160.0,212.0 160.0,184.0" fill="#F39C12"/><polygon points="160.0,160.0 184.0,172.0 160.0,184.0 136.0,172.0" fill="#FFAE14"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.84s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="316.0,1002.1" to="0,0"
+                         begin="2.84s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(284.3,1107.6)">
+      <g opacity="0">
+        <polygon points="208.0,208.0 232.0,220.0 232.0,248.0 208.0,236.0" fill="#6E3586"/><polygon points="256.0,208.0 256.0,236.0 232.0,248.0 232.0,220.0" fill="#8E44AD"/><polygon points="232.0,196.0 256.0,208.0 232.0,220.0 208.0,208.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.87s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="284.3,1107.6" to="0,0"
+                         begin="2.87s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1083.7,-216.5)">
+      <g opacity="0">
+        <polygon points="232.0,220.0 256.0,232.0 256.0,260.0 232.0,248.0" fill="#6E3586"/><polygon points="280.0,220.0 280.0,248.0 256.0,260.0 256.0,232.0" fill="#8E44AD"/><polygon points="256.0,208.0 280.0,220.0 256.0,232.0 232.0,220.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.90s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1083.7,-216.5" to="0,0"
+                         begin="2.90s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(2126.2,81.5)">
+      <g opacity="0">
+        <polygon points="256.0,232.0 280.0,244.0 280.0,272.0 256.0,260.0" fill="#6E3586"/><polygon points="304.0,232.0 304.0,260.0 280.0,272.0 280.0,244.0" fill="#8E44AD"/><polygon points="280.0,220.0 304.0,232.0 280.0,244.0 256.0,232.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.93s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="2126.2,81.5" to="0,0"
+                         begin="2.93s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(521.9,1067.1)">
+      <g opacity="0">
+        <polygon points="280.0,244.0 304.0,256.0 304.0,284.0 280.0,272.0" fill="#6E3586"/><polygon points="328.0,244.0 328.0,272.0 304.0,284.0 304.0,256.0" fill="#8E44AD"/><polygon points="304.0,232.0 328.0,244.0 304.0,256.0 280.0,244.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.96s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="521.9,1067.1" to="0,0"
+                         begin="2.96s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-217.7,915.5)">
+      <g opacity="0">
+        <polygon points="304.0,256.0 328.0,268.0 328.0,296.0 304.0,284.0" fill="#6E3586"/><polygon points="352.0,256.0 352.0,284.0 328.0,296.0 328.0,268.0" fill="#8E44AD"/><polygon points="328.0,244.0 352.0,256.0 328.0,268.0 304.0,256.0" fill="#9F4CC1"/>
+        <animate attributeName="opacity" from="0" to="1" begin="2.99s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-217.7,915.5" to="0,0"
+                         begin="2.99s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1044.0,85.9)">
+      <g opacity="0">
+        <polygon points="376.0,292.0 400.0,304.0 400.0,332.0 376.0,320.0" fill="#2876AA"/><polygon points="424.0,292.0 424.0,320.0 400.0,332.0 400.0,304.0" fill="#3498DB"/><polygon points="400.0,280.0 424.0,292.0 400.0,304.0 376.0,292.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.02s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1044.0,85.9" to="0,0"
+                         begin="3.02s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-206.7,-744.5)">
+      <g opacity="0">
+        <polygon points="472.0,340.0 496.0,352.0 496.0,380.0 472.0,368.0" fill="#2876AA"/><polygon points="520.0,340.0 520.0,368.0 496.0,380.0 496.0,352.0" fill="#3498DB"/><polygon points="496.0,328.0 520.0,340.0 496.0,352.0 472.0,340.0" fill="#3AAAF5"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.05s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-206.7,-744.5" to="0,0"
+                         begin="3.05s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-272.2,851.5)">
+      <g opacity="0">
+        <polygon points="544.0,376.0 568.0,388.0 568.0,416.0 544.0,404.0" fill="#1E874A"/><polygon points="592.0,376.0 592.0,404.0 568.0,416.0 568.0,388.0" fill="#27AE60"/><polygon points="568.0,364.0 592.0,376.0 568.0,388.0 544.0,376.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.08s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-272.2,851.5" to="0,0"
+                         begin="3.08s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1225.2,507.3)">
+      <g opacity="0">
+        <polygon points="568.0,388.0 592.0,400.0 592.0,428.0 568.0,416.0" fill="#1E874A"/><polygon points="616.0,388.0 616.0,416.0 592.0,428.0 592.0,400.0" fill="#27AE60"/><polygon points="592.0,376.0 616.0,388.0 592.0,400.0 568.0,388.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.11s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1225.2,507.3" to="0,0"
+                         begin="3.11s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1310.4,-320.3)">
+      <g opacity="0">
+        <polygon points="592.0,400.0 616.0,412.0 616.0,440.0 592.0,428.0" fill="#1E874A"/><polygon points="640.0,400.0 640.0,428.0 616.0,440.0 616.0,412.0" fill="#27AE60"/><polygon points="616.0,388.0 640.0,400.0 616.0,412.0 592.0,400.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.14s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1310.4,-320.3" to="0,0"
+                         begin="3.14s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-331.6,891.1)">
+      <g opacity="0">
+        <polygon points="616.0,412.0 640.0,424.0 640.0,452.0 616.0,440.0" fill="#1E874A"/><polygon points="664.0,412.0 664.0,440.0 640.0,452.0 640.0,424.0" fill="#27AE60"/><polygon points="640.0,400.0 664.0,412.0 640.0,424.0 616.0,412.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.17s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-331.6,891.1" to="0,0"
+                         begin="3.17s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-421.5,746.2)">
+      <g opacity="0">
+        <polygon points="640.0,424.0 664.0,436.0 664.0,464.0 640.0,452.0" fill="#1E874A"/><polygon points="688.0,424.0 688.0,452.0 664.0,464.0 664.0,436.0" fill="#27AE60"/><polygon points="664.0,412.0 688.0,424.0 664.0,436.0 640.0,424.0" fill="#2BC26B"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.20s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-421.5,746.2" to="0,0"
+                         begin="3.20s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1334.3,269.1)">
+      <g opacity="0">
+        <polygon points="928.0,568.0 952.0,580.0 952.0,608.0 928.0,596.0" fill="#149279"/><polygon points="976.0,568.0 976.0,596.0 952.0,608.0 952.0,580.0" fill="#1ABC9C"/><polygon points="952.0,556.0 976.0,568.0 952.0,580.0 928.0,568.0" fill="#1DD2AE"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.23s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1334.3,269.1" to="0,0"
+                         begin="3.23s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(-1892.1,128.6)">
+      <g opacity="0">
+        <polygon points="1216.0,712.0 1240.0,724.0 1240.0,752.0 1216.0,740.0" fill="#B43B2E"/><polygon points="1264.0,712.0 1264.0,740.0 1240.0,752.0 1240.0,724.0" fill="#E74C3C"/><polygon points="1240.0,700.0 1264.0,712.0 1240.0,724.0 1216.0,712.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.26s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="-1892.1,128.6" to="0,0"
+                         begin="3.26s" dur="0.90s" fill="freeze"/>
+    </g>
+<g transform="translate(1022.3,-607.9)">
+      <g opacity="0">
+        <polygon points="1312.0,760.0 1336.0,772.0 1336.0,800.0 1312.0,788.0" fill="#B43B2E"/><polygon points="1360.0,760.0 1360.0,788.0 1336.0,800.0 1336.0,772.0" fill="#E74C3C"/><polygon points="1336.0,748.0 1360.0,760.0 1336.0,772.0 1312.0,760.0" fill="#FF5543"/>
+        <animate attributeName="opacity" from="0" to="1" begin="3.29s" dur="0.2s" fill="freeze"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+                         from="1022.3,-607.9" to="0,0"
+                         begin="3.29s" dur="0.90s" fill="freeze"/>
+    </g>
+</g></svg>
