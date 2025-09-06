@@ -36,9 +36,9 @@
     .btn.secondary{background:#2b3138}
     .list{margin:0;padding-left:18px}
     .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:.92em;color:#d7ffb7}
-    .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
     figure{margin:0}
-    .thumb{display:block;background:#0b0c0f;border:1px solid #2a2f36;border-radius:12px;overflow:hidden;aspect-ratio:16/9}
+    .thumb{display:block;background:#ffffff;border:1px solid #2a2f36;border-radius:12px;overflow:hidden;aspect-ratio:16/9}
     .thumb img{width:100%;height:100%;object-fit:cover;display:block}
     .figcap{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
     .figcap .left{display:flex;gap:8px;align-items:center}
@@ -64,14 +64,12 @@
         <div class="card">
           <h2>Quick Links</h2>
           <ul class="list">
-            <li><a href="#thesis">Doctoral thesis</a></li>
+            <li><a href="#thesis">Slides Deck and Doctoral thesis</a></li>
             <li><a href="#papers">Papers</a></li>
             <li><a href="#uuxetoh">UUXE‑ToH questionnaire & platform</a></li>
             <li><a href="#datasets">Datasets, scripts & reports</a></li>
             <li><a href="#figures">Figures & tables (hi‑res)</a></li>
           </ul>
-          <div class="hr"></div>
-          <p class="note">Tip: open links in new tabs (<span class="kbd">Ctrl/⌘</span> + click) so you can keep this page during the session.</p>
         </div>
         <div class="card">
           <h2>About</h2>
@@ -82,15 +80,29 @@
     </section>
 
     <section id="thesis">
-      <h2>Thesis</h2>
-      <div class="card">
-        <h3>Doctoral Thesis — UUXE‑ToH</h3>
-        <p>Title: <em>A Usability and User Experience Evaluation Technology for Touchable Holographic Solutions</em></p>
-        <p>
-          <a class="btn" href="#" target="_blank" rel="noopener">View PDF</a>
-          <a class="btn secondary" href="#" download>Download</a>
-        </p>
-        <p class="note">Replace the two <code>href</code> attributes above with your public thesis URL(s) (e.g., institutional repository / DOI).</p>
+      <h2>Slides Deck and Thesis</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Slides Deck</h3>
+          <figure>
+            <img src="ihc2025/slide_cover.png" alt="Slides Deck" style="max-width:100%;border-radius:12px;border:1px solid #2a2f36" />
+            <figcaption class="figcap" style="margin-top:8px;font-size:.9rem;color:var(--muted)">
+              <a class="btn" href="ihc2025/slides.pdf" target="_blank" rel="noopener">PDF</a>  
+            </figcaption>
+          </figure>   
+        </div>
+        <div class="card">
+          <h3>Doctoral Thesis — A Usability and User Experience Evaluation Technology for Touchable Holographic Solutions</h3>
+          <p class="muted">Thiago Prado de Campos, 2024. Programa de Pós‑Graduação em Informática (PPGInf), Universidade Federal do Paraná (UFPR).</p>
+          <figure class="center"> 
+            <img src="ihc2025/thesis_cover.png" alt="Doctoral Thesis" style="max-height:200px;max-width:100%;border-radius:12px;border:1px solid #2a2f36" />
+            <figcaption class="figcap" style="margin-top:8px;font-size:.9rem;color:var(--muted)">              
+              <p>
+                <a class="btn" href="https://acervodigital.ufpr.br/xmlui/handle/1884/94482" target="_blank" rel="noopener">Access in UFPR Collection</a>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -192,194 +204,186 @@
     </section>
 
     <section id="figures">
-      <h2>Figures & Tables (from slides) — thumbnails + hi‑res</h2>
-      <p class="note">Put the image files under <code>/assets/</code>. Use the suggested filenames below (e.g., <code>slide05_thumb.jpg</code> and <code>slide05_full.png</code>). Replace <em>Caption…</em> with the actual figure/table caption.
-      </p>
+      <h2>Figures & Tables (from slides)</h2>      
       <div class="gallery">
         <!-- Repeatable card template per requested slide: 5, 9–10, 12–21, 23–27 -->
         <!-- Slide 5 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide05_full.png" download>
-            <img src="assets/slide05_thumb.jpg" alt="Slide 5 — Caption…" />
+          <a class="thumb" href="ihc2025/methodology.svg" download>
+            <img src="ihc2025/methodology.svg" alt="Slide 5 — Methodology" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 5</span><span>Caption…</span></div>
-            <a href="assets/slide05_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 5</span><span>Methodology</span></div>
           </figcaption>
         </figure>
         <!-- Slide 9 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide09_full.png" download>
-            <img src="assets/slide09_thumb.jpg" alt="Slide 9 — Caption…" />
+          <a class="thumb" href="ihc2025/aspects_for_ths.svg" download>
+            <img src="ihc2025/aspects_for_ths.svg" alt="Slide 9 — Aspects for THS" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 9</span><span>Caption…</span></div>
-            <a href="assets/slide09_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 9</span><span>Aspects for THS</span></div>
           </figcaption>
         </figure>
         <!-- Slide 10 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide10_full.png" download>
-            <img src="assets/slide10_thumb.jpg" alt="Slide 10 — Caption…" />
+          <a class="thumb" href="ihc2025/telepresence.svg" download>
+            <img src="ihc2025/telepresence.svg" alt="Slide 10 — Immersion & Presence" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 10</span><span>Caption…</span></div>
-            <a href="assets/slide10_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 10</span><span>Immersion & Presence</span></div>
           </figcaption>
         </figure>
         <!-- Slide 12 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide12_full.png" download>
-            <img src="assets/slide12_thumb.jpg" alt="Slide 12 — Caption…" />
+          <a class="thumb" href="ihc2025/uuxetoh_v1.svg" download>
+            <img src="ihc2025/uuxetoh_v1.svg" alt="Slide 12 — UUXE-ToH v1" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 12</span><span>Caption…</span></div>
-            <a href="assets/slide12_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 12</span><span>UUXE-ToH v1</span></div>
           </figcaption>
         </figure>
         <!-- Slide 13 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide13_full.png" download>
-            <img src="assets/slide13_thumb.jpg" alt="Slide 13 — Caption…" />
+          <a class="thumb" href="ihc2025/study_1.svg" download>
+            <img src="ihc2025/study_1.svg" alt="Slide 13 — Study 1" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 13</span><span>Caption…</span></div>
-            <a href="assets/slide13_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 13</span><span>Study 1</span></div>
           </figcaption>
         </figure>
         <!-- Slide 14 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide14_full.png" download>
-            <img src="assets/slide14_thumb.jpg" alt="Slide 14 — Caption…" />
+          <a class="thumb" href="ihc2025/study1_result1.png" download>
+            <img src="ihc2025/study1_result1.png" alt="Slide 14 — Study 1 - Results Q1-Q7" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 14</span><span>Caption…</span></div>
-            <a href="assets/slide14_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 14</span><span>Study 1 - Results Q1-Q7</span></div>
           </figcaption>
         </figure>
         <!-- Slide 15 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide15_full.png" download>
-            <img src="assets/slide15_thumb.jpg" alt="Slide 15 — Caption…" />
+          <a class="thumb" href="ihc2025/slide15_full.png" download>
+            <img src="ihc2025/slide15_thumb.jpg" alt="Slide 15 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 15</span><span>Caption…</span></div>
-            <a href="assets/slide15_full.png" download>Download</a>
+            <a href="ihc2025/slide15_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 16 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide16_full.png" download>
-            <img src="assets/slide16_thumb.jpg" alt="Slide 16 — Caption…" />
+          <a class="thumb" href="ihc2025/slide16_full.png" download>
+            <img src="ihc2025/slide16_thumb.jpg" alt="Slide 16 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 16</span><span>Caption…</span></div>
-            <a href="assets/slide16_full.png" download>Download</a>
+            <a href="ihc2025/slide16_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 17 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide17_full.png" download>
-            <img src="assets/slide17_thumb.jpg" alt="Slide 17 — Caption…" />
+          <a class="thumb" href="ihc2025/slide17_full.png" download>
+            <img src="ihc2025/slide17_thumb.jpg" alt="Slide 17 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 17</span><span>Caption…</span></div>
-            <a href="assets/slide17_full.png" download>Download</a>
+            <a href="ihc2025/slide17_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 18 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide18_full.png" download>
-            <img src="assets/slide18_thumb.jpg" alt="Slide 18 — Caption…" />
+          <a class="thumb" href="ihc2025/slide18_full.png" download>
+            <img src="ihc2025/slide18_thumb.jpg" alt="Slide 18 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 18</span><span>Caption…</span></div>
-            <a href="assets/slide18_full.png" download>Download</a>
+            <a href="ihc2025/slide18_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 19 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide19_full.png" download>
-            <img src="assets/slide19_thumb.jpg" alt="Slide 19 — Caption…" />
+          <a class="thumb" href="ihc2025/slide19_full.png" download>
+            <img src="ihc2025/slide19_thumb.jpg" alt="Slide 19 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 19</span><span>Caption…</span></div>
-            <a href="assets/slide19_full.png" download>Download</a>
+            <a href="ihc2025/slide19_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 20 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide20_full.png" download>
-            <img src="assets/slide20_thumb.jpg" alt="Slide 20 — Caption…" />
+          <a class="thumb" href="ihc2025/slide20_full.png" download>
+            <img src="ihc2025/slide20_thumb.jpg" alt="Slide 20 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 20</span><span>Caption…</span></div>
-            <a href="assets/slide20_full.png" download>Download</a>
+            <a href="ihc2025/slide20_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 21 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide21_full.png" download>
-            <img src="assets/slide21_thumb.jpg" alt="Slide 21 — Caption…" />
+          <a class="thumb" href="ihc2025/slide21_full.png" download>
+            <img src="ihc2025/slide21_thumb.jpg" alt="Slide 21 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 21</span><span>Caption…</span></div>
-            <a href="assets/slide21_full.png" download>Download</a>
+            <a href="ihc2025/slide21_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 23 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide23_full.png" download>
-            <img src="assets/slide23_thumb.jpg" alt="Slide 23 — Caption…" />
+          <a class="thumb" href="ihc2025/slide23_full.png" download>
+            <img src="ihc2025/slide23_thumb.jpg" alt="Slide 23 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 23</span><span>Caption…</span></div>
-            <a href="assets/slide23_full.png" download>Download</a>
+            <a href="ihc2025/slide23_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 24 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide24_full.png" download>
-            <img src="assets/slide24_thumb.jpg" alt="Slide 24 — Caption…" />
+          <a class="thumb" href="ihc2025/slide24_full.png" download>
+            <img src="ihc2025/slide24_thumb.jpg" alt="Slide 24 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 24</span><span>Caption…</span></div>
-            <a href="assets/slide24_full.png" download>Download</a>
+            <a href="ihc2025/slide24_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 25 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide25_full.png" download>
-            <img src="assets/slide25_thumb.jpg" alt="Slide 25 — Caption…" />
+          <a class="thumb" href="ihc2025/slide25_full.png" download>
+            <img src="ihc2025/slide25_thumb.jpg" alt="Slide 25 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 25</span><span>Caption…</span></div>
-            <a href="assets/slide25_full.png" download>Download</a>
+            <a href="ihc2025/slide25_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 26 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide26_full.png" download>
-            <img src="assets/slide26_thumb.jpg" alt="Slide 26 — Caption…" />
+          <a class="thumb" href="ihc2025/slide26_full.png" download>
+            <img src="ihc2025/slide26_thumb.jpg" alt="Slide 26 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 26</span><span>Caption…</span></div>
-            <a href="assets/slide26_full.png" download>Download</a>
+            <a href="ihc2025/slide26_full.png" download>Download</a>
           </figcaption>
         </figure>
         <!-- Slide 27 -->
         <figure class="card">
-          <a class="thumb" href="assets/slide27_full.png" download>
-            <img src="assets/slide27_thumb.jpg" alt="Slide 27 — Caption…" />
+          <a class="thumb" href="ihc2025/slide27_full.png" download>
+            <img src="ihc2025/slide27_thumb.jpg" alt="Slide 27 — Caption…" />
           </a>
           <figcaption class="figcap">
             <div class="left"><span class="badge">Slide 27</span><span>Caption…</span></div>
-            <a href="assets/slide27_full.png" download>Download</a>
+            <a href="ihc2025/slide27_full.png" download>Download</a>
           </figcaption>
         </figure>
       </div>
       <div class="callout" style="margin-top:16px">
-        <strong>Zip for offline sharing:</strong> Once images are in <code>/assets/</code>, you may package everything and share a single <code>.zip</code> together with this HTML file.
+        <strong>Zip for offline sharing:</strong> Once images are in <code>/ihc2025/</code>, you may package everything and share a single <code>.zip</code> together with this HTML file.
       </div>
     </section>
 
