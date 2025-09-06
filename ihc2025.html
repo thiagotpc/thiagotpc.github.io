@@ -6,6 +6,16 @@
   <title>IHC 2025 • UUXE‑ToH — Resources & Downloads</title>
   <meta name="description" content="Links to thesis, papers, datasets, questionnaire, and high‑resolution figures for the IHC 2025 presentation on UUXE‑ToH (Touchable Holography)." />
   <style>
+    /* Imagem dos cards de papers na seção #papers */
+    .paper-thumb {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #2a2f36;
+      max-height: 180px;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
     :root{
       --bg:#0e0f12; --fg:#e9edf1; --muted:#aab3bd; --card:#16181d; --accent:#7cc4ff; --accent2:#b7ff7c;
       --br:18px;
@@ -65,10 +75,12 @@
           <h2>Quick Links</h2>
           <ul class="list">
             <li><a href="#thesis">Slides Deck and Doctoral thesis</a></li>
-            <li><a href="#papers">Papers</a></li>
+            <li><a href="#figures">Figures, videos & tables</a></li>
+            <li><a href="#papers">UUXE-ToH's Publications</a></li>
             <li><a href="#uuxetoh">UUXE‑ToH questionnaire & platform</a></li>
-            <li><a href="#datasets">Datasets, scripts & reports</a></li>
-            <li><a href="#figures">Figures & tables (hi‑res)</a></li>
+            <li><a href="#datasets">Datasets, scripts & reports</a></li>            
+            <li><a href="#porifera">Porifera: app and publications</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div class="card">
@@ -87,13 +99,13 @@
           <figure>
             <img src="ihc2025/slide_cover.png" alt="Slides Deck" style="max-width:100%;border-radius:12px;border:1px solid #2a2f36" />
             <figcaption class="figcap" style="margin-top:8px;font-size:.9rem;color:var(--muted)">
-              <a class="btn" href="ihc2025/slides.pdf" target="_blank" rel="noopener">PDF</a>  
+              <a class="btn" href="ihc2025/presentation.pdf" target="_blank" rel="noopener">PDF</a>  
             </figcaption>
           </figure>   
         </div>
         <div class="card">
           <h3>Doctoral Thesis — A Usability and User Experience Evaluation Technology for Touchable Holographic Solutions</h3>
-          <p class="muted">Thiago Prado de Campos, 2024. Programa de Pós‑Graduação em Informática (PPGInf), Universidade Federal do Paraná (UFPR).</p>
+          <p class="muted">Thiago Prado de Campos, 2024. Postgraduate Program in Informatics (PPGInf). Federal University of Paraná (UFPR).</p>
           <figure class="center"> 
             <img src="ihc2025/thesis_cover.png" alt="Doctoral Thesis" style="max-height:200px;max-width:100%;border-radius:12px;border:1px solid #2a2f36" />
             <figcaption class="figcap" style="margin-top:8px;font-size:.9rem;color:var(--muted)">              
@@ -106,105 +118,8 @@
       </div>
     </section>
 
-    <section id="papers">
-      <h2>Papers (selection)</h2>
-      <div class="grid two">
-        <article class="card">
-          <h3>IJHCI (2024) — Exploratory search & aspects for THS</h3>
-          <p class="muted">International Journal of Human‑Computer Interaction.</p>
-          <p>
-            <a class="btn" href="https://www.tandfonline.com/doi/10.1080/10447318.2024.2400755" target="_blank" rel="noopener">Open article</a>
-          </p>
-        </article>
-        <article class="card">
-          <h3>JIS (2025) — Extended SMS on THS evaluations</h3>
-          <p class="muted">Journal on Interactive Systems (SBC). Technical report & article.</p>
-          <p>
-            <a class="btn" href="https://doi.org/10.6084/m9.figshare.26261951.v2" target="_blank" rel="noopener">Tech. Report</a>
-            <a class="btn secondary" href="https://journals-sol.sbc.org.br/index.php/jis/article/view/4694" target="_blank" rel="noopener">Article</a>
-          </p>
-        </article>
-        <article class="card">
-          <h3>IHC (2023) — Initial SMS</h3>
-          <p class="muted">Brazilian Symposium on Human Factors in Computing Systems.</p>
-          <p><a class="btn" href="https://dl.acm.org/doi/10.1145/3638067.3638071" target="_blank" rel="noopener">Open on ACM DL</a></p>
-        </article>
-        <article class="card">
-          <h3>SVR (2024) — Cubism evaluation with questionnaires</h3>
-          <p class="muted">Symposium on Virtual and Augmented Reality.</p>
-          <p><a class="btn" href="https://dl.acm.org/doi/10.1145/3691573.3691584" target="_blank" rel="noopener">Open article</a></p>
-        </article>
-        <article class="card">
-          <h3>ICEIS (2024, 2025) — Qualitative & performance studies</h3>
-          <p class="muted">International Conference on Enterprise Information Systems.</p>
-          <p><a class="btn" href="https://www.scitepress.org/Papers/2024/125641/125641.pdf" target="_blank" rel="noopener">Paper (2024)</a> <a class="btn secondary" href="https://www.scitepress.org/Link.aspx?doi=10.5220/0013447100003929" target="_blank" rel="noopener">Paper (2025)</a></p>
-        </article>
-      </div>
-    </section>
-
-    <section id="uuxetoh">
-      <h2>UUXE‑ToH — Questionnaire & Platform</h2>
-      <div class="grid two">
-        <div class="card">
-          <h3>Questionnaire — v4</h3>
-          <p>
-            <a class="btn" href="https://doi.org/10.6084/m9.figshare.28143752.v1" target="_blank" rel="noopener">Download (Figshare DOI)</a>
-          </p>
-          <p class="muted">PDF downloads in PT‑BR and EN. Include the user manual from the platform below.</p>
-        </div>
-        <div class="card">
-          <h3>Official Platform</h3>
-          <p>Forms for data collection, dashboards (radar, heatmap), manuals, and publications list.</p>
-          <p><a class="btn" href="https://uuxetoh.thiagotpc.com" target="_blank" rel="noopener">Open platform</a></p>
-        </div>
-      </div>
-    </section>
-
-    <section id="datasets">
-      <h2>Datasets, Scripts & Reports</h2>
-      <div class="grid two">
-        <article class="card">
-          <h3>Study 2 — Collected data</h3>
-          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.26970676" target="_blank" rel="noopener">Dataset (Figshare)</a></p>
-        </article>
-        <article class="card">
-          <h3>Study 2 — R scripts</h3>
-          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27000478" target="_blank" rel="noopener">R code (Figshare)</a></p>
-        </article>
-        <article class="card">
-          <h3>Study 2 — JASP reports (ACIs & EFAs)</h3>
-          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.26972458" target="_blank" rel="noopener">Reports (Figshare)</a></p>
-        </article>
-        <article class="card">
-          <h3>Study 3 — Data, scripts & reports</h3>
-          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27822213" target="_blank" rel="noopener">Package (Figshare)</a></p>
-        </article>
-        <article class="card">
-          <h3>Validation artifacts — Qualitative codings</h3>
-          <p>
-            <a class="btn" href="https://doi.org/10.6084/m9.figshare.27665688" target="_blank" rel="noopener">Axial coding (Study 1)</a>
-            <a class="btn secondary" href="https://doi.org/10.6084/m9.figshare.27822543" target="_blank" rel="noopener">Axial coding (Study 2)</a>
-          </p>
-        </article>
-        <article class="card">
-          <h3>Processed feedback spreadsheets</h3>
-          <p>
-            <a class="btn" href="https://doi.org/10.6084/m9.figshare.27822558" target="_blank" rel="noopener">Study 1 → v2</a>
-            <a class="btn secondary" href="https://doi.org/10.6084/m9.figshare.27822549" target="_blank" rel="noopener">Study 2 → v3</a>
-          </p>
-        </article>
-        <article class="card">
-          <h3>Systematic Mapping — Technical reports</h3>
-          <p>
-            <a class="btn" href="https://doi.org/10.6084/m9.figshare.22114355.v1" target="_blank" rel="noopener">Initial SMS</a>
-            <a class="btn secondary" href="https://doi.org/10.6084/m9.figshare.26261951.v2" target="_blank" rel="noopener">Extended SMS</a>
-          </p>
-        </article>
-      </div>
-    </section>
-
     <section id="figures">
-      <h2>Figures & Tables (from slides)</h2>      
+      <h2>Figures, Videos & Tables (from slides)</h2>      
       <div class="gallery">
         <!-- Repeatable card template per requested slide: 5, 9–10, 12–21, 23–27 -->
         <!-- Slide 5 -->
@@ -263,134 +178,334 @@
         </figure>
         <!-- Slide 15 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide15_full.png" download>
-            <img src="ihc2025/slide15_thumb.jpg" alt="Slide 15 — Caption…" />
+          <a class="thumb" href="ihc2025/study1_result2.png" download>
+            <img src="ihc2025/study1_result2.png" alt="Slide 15 — Study 1 - Items' Relevance" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 15</span><span>Caption…</span></div>
-            <a href="ihc2025/slide15_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 15</span><span>Study 1 - Items' Relevance</span></div>
           </figcaption>
         </figure>
         <!-- Slide 16 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide16_full.png" download>
-            <img src="ihc2025/slide16_thumb.jpg" alt="Slide 16 — Caption…" />
+          <a class="thumb" href="ihc2025/study1_result3.png" download>
+            <img src="ihc2025/study1_result3.png" alt="Slide 16 — Study 1 - Code Categories" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 16</span><span>Caption…</span></div>
-            <a href="ihc2025/slide16_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 16</span><span>Study 1 - Code Categories</span></div>
           </figcaption>
         </figure>
         <!-- Slide 17 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide17_full.png" download>
-            <img src="ihc2025/slide17_thumb.jpg" alt="Slide 17 — Caption…" />
+          <a class="thumb" href="ihc2025/uuxe-toh_v2.svg" download>
+            <img src="ihc2025/uuxe-toh_v2.svg" alt="Slide 17 — UUXE-ToH v2" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 17</span><span>Caption…</span></div>
-            <a href="ihc2025/slide17_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 17</span><span>UUXE-ToH v2</span></div>
           </figcaption>
         </figure>
-        <!-- Slide 18 -->
+        <!-- Slide 18 A-->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide18_full.png" download>
-            <img src="ihc2025/slide18_thumb.jpg" alt="Slide 18 — Caption…" />
+          <a class="thumb" href="ihc2025/study_2.svg" download>
+            <img src="ihc2025/study_2.svg" alt="Slide 18 — Study 2" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 18</span><span>Caption…</span></div>
-            <a href="ihc2025/slide18_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 18</span><span>Study 2</span></div>
+          </figcaption>
+        </figure>
+        <!-- Slide 18 B -->
+        <figure class="card">
+          <a class="thumb" href="https://www.youtube.com/watch?v=BrqmjOLzXNo" download>
+            <img src="ihc2025/cubism_trailer.png" alt="Slide 18 — Cubism Trailer" />
+          </a>
+          <figcaption class="figcap">
+            <div class="left"><span class="badge">Slide 18</span><span>Cubism Trailer</span></div>
           </figcaption>
         </figure>
         <!-- Slide 19 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide19_full.png" download>
-            <img src="ihc2025/slide19_thumb.jpg" alt="Slide 19 — Caption…" />
+          <a class="thumb" href="ihc2025/study2_result1.png" download>
+            <img src="ihc2025/study2_result1.png" alt="Slide 19 — Users Feedback Categories" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 19</span><span>Caption…</span></div>
-            <a href="ihc2025/slide19_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 19</span><span>Users Feedback Categories</span></div>
           </figcaption>
         </figure>
         <!-- Slide 20 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide20_full.png" download>
-            <img src="ihc2025/slide20_thumb.jpg" alt="Slide 20 — Caption…" />
+          <a class="thumb" href="ihc2025/study2_result2_reliability.png" download>
+            <img src="ihc2025/study2_result2_reliability.png" alt="Slide 20 — Study 2 - Reliability" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 20</span><span>Caption…</span></div>
-            <a href="ihc2025/slide20_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 20</span><span>Study 2 - Reliability</span></div>
           </figcaption>
         </figure>
         <!-- Slide 21 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide21_full.png" download>
-            <img src="ihc2025/slide21_thumb.jpg" alt="Slide 21 — Caption…" />
+          <a class="thumb" href="ihc2025/study2_discriminant.png" download>
+            <img src="ihc2025/study2_discriminant.png" alt="Slide 21 — Study 2 - Discriminant" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 21</span><span>Caption…</span></div>
-            <a href="ihc2025/slide21_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 21</span><span>Study 2 - Discriminant</span></div>
           </figcaption>
         </figure>
         <!-- Slide 23 -->
-        <figure class="card">
-          <a class="thumb" href="ihc2025/slide23_full.png" download>
-            <img src="ihc2025/slide23_thumb.jpg" alt="Slide 23 — Caption…" />
+         <figure class="card">
+          <a class="thumb" href="ihc2025/study2_result_convergent.png" download>
+            <img src="ihc2025/study2_result_convergent.png" alt="Slide 23 — Study 2 - Convergent" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 23</span><span>Caption…</span></div>
-            <a href="ihc2025/slide23_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 23</span><span>Study 2 - Convergent</span></div>
           </figcaption>
         </figure>
-        <!-- Slide 24 -->
+        <!-- Slide 24 -->        
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide24_full.png" download>
-            <img src="ihc2025/slide24_thumb.jpg" alt="Slide 24 — Caption…" />
+          <a class="thumb" href="ihc2025/uuxe-toh_v4.svg" download>
+            <img src="ihc2025/uuxe-toh_v4.svg" alt="Slide 24 — UUXE-ToH v4" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 24</span><span>Caption…</span></div>
-            <a href="ihc2025/slide24_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 24</span><span>UUXE-ToH v4</span></div>
           </figcaption>
         </figure>
         <!-- Slide 25 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide25_full.png" download>
-            <img src="ihc2025/slide25_thumb.jpg" alt="Slide 25 — Caption…" />
+          <a class="thumb" href="ihc2025/study_3.svg" download>
+            <img src="ihc2025/study_3.svg" alt="Slide 25 — Study 3" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 25</span><span>Caption…</span></div>
-            <a href="ihc2025/slide25_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 25</span><span>Study 3</span></div>
           </figcaption>
         </figure>
         <!-- Slide 26 -->
         <figure class="card">
-          <a class="thumb" href="ihc2025/slide26_full.png" download>
-            <img src="ihc2025/slide26_thumb.jpg" alt="Slide 26 — Caption…" />
+          <a class="thumb" href="ihc2025/study3_tamresults.png" download>
+            <img src="ihc2025/study3_tamresults.png" alt="Slide 26 — Study 3 - TAM Results" />
           </a>
           <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 26</span><span>Caption…</span></div>
-            <a href="ihc2025/slide26_full.png" download>Download</a>
+            <div class="left"><span class="badge">Slide 26</span><span>Study 3 - TAM Results</span></div>
           </figcaption>
         </figure>
-        <!-- Slide 27 -->
-        <figure class="card">
-          <a class="thumb" href="ihc2025/slide27_full.png" download>
-            <img src="ihc2025/slide27_thumb.jpg" alt="Slide 27 — Caption…" />
-          </a>
-          <figcaption class="figcap">
-            <div class="left"><span class="badge">Slide 27</span><span>Caption…</span></div>
-            <a href="ihc2025/slide27_full.png" download>Download</a>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="callout" style="margin-top:16px">
-        <strong>Zip for offline sharing:</strong> Once images are in <code>/ihc2025/</code>, you may package everything and share a single <code>.zip</code> together with this HTML file.
       </div>
     </section>
 
-    <section id="cite">
-      <h2>How to cite</h2>
-      <div class="card">
-        <p class="note">Include your preferred BibTeX/ABNT/APA citations here (paper DOI, thesis, datasets). You can copy & paste from your reference manager.</p>
+    <section id="papers">
+      <h2>UUXE-ToH's Publications</h2>
+      <div class="grid two">
+
+        <article class="card">
+          <h3>Usability and UX Evaluation in a Mixed Reality Puzzle Game Using Questionnaires</h3>
+          <p class="muted">Journal on Interaction Systems - JIS (2025)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/article_jis_2025b.png" alt="cover of JIS 2025 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://journals-sol.sbc.org.br/index.php/jis/article/view/6089" target="_blank" rel="noopener">Open Article</a>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article class="card">
+          <h3>Evaluating Performance and Acceptance of the UUXE-ToH Questionnaire for Touchable Holographic Solutions</h3>
+          <p class="muted">International Conference on Enterprise Information Systems - ICEIS (2025)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/paper_iceis_2025.png" alt="cover of ICEIS 2025 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://www.scitepress.org/Link.aspx?doi=10.5220/0013447100003929" target="_blank" rel="noopener">Open Paper</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        <article class="card">
+          <h3>An Updated Systematic Mapping Study on Usability and User Experience Evaluation of Touchable Holographic Solutions</h3>
+          <p class="muted">Journal on Interactive Systems - JIS (2025)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/article_jis_2025a.png" alt="cover of JIS paper" />
+            <figcaption class="figcap">              
+              <a class="btn primary" href="https://journals-sol.sbc.org.br/index.php/jis/article/view/4694" target="_blank" rel="noopener">Open Article</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        <article class="card">
+          <h3>Capítulo 3: Avaliação da Usabilidade e da Experiência do Usuário em Realidade Virtual e Aumentada</h3>
+          <p class="muted">Minicursos do IHC 2024 (2025)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/chapter_sol_2025.png" alt="cover of SOL 2025 chapter" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://books-sol.sbc.org.br/index.php/sbc/catalog/view/161/712/1286" target="_blank" rel="noopener">Open Chapter</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        <article class="card">
+          <h3>Evaluating Usability, User Experience, and Playability of a Puzzle Game in Mixed Reality</h3>
+          <p class="muted">Symposium on Virtual and Augmented Reality - SVR (2024)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/paper_svr_2024.png" alt="cover of SVR 2024 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://dl.acm.org/doi/10.1145/3691573.3691584" target="_blank" rel="noopener">Open Paper</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        <article class="card">
+          <h3>Evaluating Usability and UX in Touchable Holographic Solutions: A Validation Study of the UUXE-ToH Questionnaire</h3>
+          <p class="muted">International Journal of Human‑Computer Interaction - IJHCI (2024)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/article_ijhci_2024.png" alt="cover of IJHCI article" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://www.tandfonline.com/doi/10.1080/10447318.2024.2400755" target="_blank" rel="noopener">Open Article</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        <article class="card">
+          <h3>Usability and User Experience Questionnaire Evaluation and Evolution for Touchable Holography</h3>
+          <p class="muted">International Conference on Enterprise Information Systems - ICEIS (2024)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/paper_iceis_2024.png" alt="cover of ICEIS 2024 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://www.scitepress.org/Papers/2024/125641/125641.pdf" target="_blank" rel="noopener">Open Paper</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        <article class="card">
+          <h3>Usability and User Experience Evaluation of Touchable Holographic Solutions: A Systematic Mapping Study</h3>
+          <p class="muted">Brazilian Symposium on Human Factors in Computing Systems - IHC (2023)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/paper_ihc_2023.png" alt="cover of IHC 2023 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://dl.acm.org/doi/10.1145/3638067.3638071" target="_blank" rel="noopener">Open Paper</a>
+            </figcaption>
+          </figure>          
+        </article>
+
+        
+
+      </div>
+    </section>
+
+    <section id="uuxetoh">
+      <h2>UUXE‑ToH — Questionnaire & Platform</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Questionnaire — v4</h3>
+          <p class="muted">The version available here is the English translation. For the original Portuguese version, please refer to the platform below.</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/uuxetoh_v4_questionnaire.png" alt="UUXE-ToH Questionnaire v4" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://doi.org/10.6084/m9.figshare.28143752.v1" target="_blank" rel="noopener">Download (Figshare)</a>
+            </figcaption>
+          </figure>          
+        </div>
+        <div class="card">
+          <h3>Official Platform</h3>
+          <p class="muted">Forms for data collection, dashboards (radar, heatmap), manuals, and publications list.</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/uuxe-toh_online.png" alt="UUXE-ToH Platform" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://uuxetoh.thiagotpc.com" target="_blank" rel="noopener">Open platform</a>
+            </figcaption>
+          </figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="datasets">
+      <h2>Datasets, Scripts & Reports</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Systematic Mapping Studies — Technical reports</h3>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.22114355.v1" target="_blank" rel="noopener">Initial SMS</a>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.26261951.v2" target="_blank" rel="noopener">Extended SMS</a>
+          </p>
+        </article>
+        <article class="card">
+          <h3>Study 1 — Qualitative codings</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27665688" target="_blank" rel="noopener">Axial coding (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 2 — Collected data</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.26970676" target="_blank" rel="noopener">Dataset (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 2 — R scripts</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27000478" target="_blank" rel="noopener">R code (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 2 — JASP reports (ACIs & EFAs)</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.26972458" target="_blank" rel="noopener">Reports (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 2 — Qualitative Coding</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27822543" target="_blank" rel="noopener">Axial coding (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Study 3 — Data, scripts & reports</h3>
+          <p><a class="btn" href="https://doi.org/10.6084/m9.figshare.27822213" target="_blank" rel="noopener">Package (Figshare)</a></p>
+        </article>
+        <article class="card">
+          <h3>Processed feedback spreadsheets</h3>
+          <p>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.27822558" target="_blank" rel="noopener">After Study 1 (Figshare)</a>
+            <a class="btn" href="https://doi.org/10.6084/m9.figshare.27822549" target="_blank" rel="noopener">After Study 2 (Figshare)</a>
+          </p>
+        </article>        
+      </div>
+    </section>
+
+    
+
+    <section id="porifera">
+      <h2>Porifera: App and Publications</h2>
+
+      <div class="grid two">
+
+        <div class="card">
+          <h3>Porifera App</h3>
+          <p class="muted">A collaborative tool for Systematic Literature Review and Systematic Mapping Study.</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/porifera_app.png" alt="Porifera App" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://porifera.app.br" target="_blank" rel="noopener">Open App</a>
+            </figcaption>
+          </figure>          
+        </div>
+
+        <div class="card">
+          <h3>Evaluating a Collaborative IS to Support Systematic Literature Reviews and Systematic Mapping Studies</h3>
+          <p class="muted">Brazilian Journal of Information Systems - iSys (2023)</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/article_isys_2023.png" alt="cover of iSys 2023 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://sol.sbc.org.br/journals/index.php/isys/article/view/2919" target="_blank" rel="noopener">Open Article</a>
+            </figcaption>
+          </figure>          
+        </div>
+
+        <div class="card">
+          <h3>Porifera: A Collaborative Tool to Support Systematic Literature Review and Systematic Mapping Study</h3>
+          <p class="muted">Brazilian Symposium on Software Engineering - SBES - 2022</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/paper_sbes_2022.png" alt="cover of SBES 2022 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://dl.acm.org/doi/10.1145/3555228.3555273?cid=99660501664" target="_blank" rel="noopener">Open Paper</a>
+            </figcaption>
+          </figure>          
+        </div>
+
+        <div class="card">
+          <h3>Proposal and Evaluation of a Collaborative IS to Support Systematic Reviews and Mapping Studies</h3>
+          <p class="muted">Brazilian Symposium on Information Systems - SBSI - 2022</p>
+          <figure>
+            <img class="paper-thumb" src="ihc2025/paper_sbsi_2022.png" alt="cover of SBSI 2022 paper" />
+            <figcaption class="figcap">
+              <a class="btn" href="https://dl.acm.org/doi/10.1145/3535511.3535531?cid=99660501664" target="_blank" rel="noopener">Open Paper</a>
+            </figcaption>
+          </figure>          
+        </div>
+        
       </div>
     </section>
 
@@ -398,13 +513,17 @@
       <h2>Contact</h2>
       <div class="card">
         <p>Thiago Prado de Campos — <a href="mailto:thiagocampos@utfpr.edu.br">thiagocampos@utfpr.edu.br</a></p>
-        <p class="muted">UTFPR • UFPR</p>
+        <ul class="list" style="margin-top:16px;">
+          <li><a href="http://lattes.cnpq.br/6006297297239084" target="_blank" rel="noopener">Curriculum on the Lattes Platform</a> — complete résumé, including academic activities.</li>
+          <li><a href="https://www.linkedin.com/in/thiagotpc/" target="_blank" rel="noopener">LinkedIn profile</a> — professional background and networking.</li>
+          <li><a href="https://twitter.com/thiagotpc" target="_blank" rel="noopener">Twitter</a> — opinions and daily thoughts.</li>
+          <li><a href="https://github.com/thiagotpc" target="_blank" rel="noopener">GitHub</a> — contribute to public projects.</li>
+        </ul>
       </div>
     </section>
 
     <footer>
-      <div class="hr"></div>
-      <p class="muted">© 2025 — UUXE‑ToH project. This page is a public companion for the IHC 2025 talk. All third‑party assets remain property of their respective owners.</p>
+      <p class="muted">This page is a public companion for the IHC 2025 talk. All third‑party assets remain property of their respective owners.</p>
     </footer>
   </main>
 </body>
