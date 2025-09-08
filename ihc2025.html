@@ -6,6 +6,26 @@
   <title>IHC 2025 • UUXE‑ToH — Resources & Downloads</title>
   <meta name="description" content="Links to thesis, papers, datasets, questionnaire, and high‑resolution figures for the IHC 2025 presentation on UUXE‑ToH (Touchable Holography)." />
   <style>
+    /* Botão de voltar ao topo */
+    #backToTop {
+      display: none;
+      font-size: 2rem;
+      text-decoration: none;
+      line-height: 1;
+      position: absolute;
+      right: 24px;
+      top: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 10;
+      opacity: 0.7;
+      transition: opacity 0.3s;
+    }
+    #backToTop.visible {
+      display: inline;
+      opacity: 1;
+    }
     /* Imagem dos cards de papers na seção #papers */
     .paper-thumb {
       width: 100%;
@@ -62,10 +82,9 @@
 </head>
 <body id="top">
   <header>
-    <div class="wrap">
-      <h1>IHC 2025 • UUXE‑ToH — Resources & Downloads
-        <a href="#top" title="Back to top" style="font-size:2rem; text-decoration:none; line-height:1;">⬆️</a>
-      </h1>
+    <div class="wrap" style="position:relative;">
+      <h1>IHC 2025 • UUXE‑ToH — Resources & Downloads</h1>
+      <a id="backToTop" href="#top" title="Back to top" aria-label="Back to top">⬆️</a>
     </div>
   </header>
 
@@ -539,6 +558,17 @@
 
     <footer>
       <p class="muted">This page is a public companion for the IHC 2025 talk. All third‑party assets remain property of their respective owners.</p>
+      <script>
+        // Exibe o botão de voltar ao topo apenas quando houver rolagem
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > 80) {
+            backToTop.classList.add('visible');
+          } else {
+            backToTop.classList.remove('visible');
+          }
+        });
+      </script>
     </footer>
   </main>
 </body>
