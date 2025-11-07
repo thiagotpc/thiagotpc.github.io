@@ -19,6 +19,26 @@ html {
     }
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.skip-link:focus,
+.skip-link:active {
+  left: 1rem;
+  top: 1rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
 body {
     font-family: Dosis;
     font-size: 16px;
